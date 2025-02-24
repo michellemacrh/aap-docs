@@ -158,11 +158,11 @@ Container default = `pulp`
 
 | `automationhub_pgclient_sslcert` | `hub_pg_tls_cert` | Required if using client certificate authentication.
 
-The path to the PostgreSQL SSL/TLS certificate file for {HubName}.
+Path to the PostgreSQL SSL/TLS certificate file for {HubName}.
 
 | `automationhub_pgclient_sslkey` | `hub_pg_tls_key` | Required if using client certificate authentication.
 
-The path to the PostgreSQL SSL/TLS key file for {HubName}.
+Path to the PostgreSQL SSL/TLS key file for {HubName}.
 
 | `automationhub_require_content_approval` | | _Optional_
 
@@ -184,15 +184,11 @@ Default = `true`
 
 | `automationhub_ssl_cert` |  `hub_tls_cert` | _Optional_
 
-`/path/to/automationhub.cert`
-
-Same as `web_server_ssl_cert` but for {HubName} UI and API.
+Path to the SSL/TLS certificate file for {HubName}.
 
 | `automationhub_ssl_key` | `hub_tls_key` | _Optional_
 
-`/path/to/automationhub.key`.
-
-Same as `web_server_ssl_key` but for {HubName} UI and API.
+Path to the SSL/TLS key file for {HubName}.
 
 | `automationhub_user_headers` |  | List of NGINX headers for {HubNameMain}'s web server. 
 
