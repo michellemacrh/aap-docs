@@ -1,0 +1,8 @@
+<title>Ansible Automation Platform preview release notes</title>
+<productname>Red Hat Ansible Automation Platform</productname>
+<productnumber>2.next</productnumber>
+<subtitle>Red Hat wants you to know about upcoming changes in Ansible Automation Platform version 2.7 so you can prepare your environment before the next Ansible Automation Platform release.</subtitle>
+<authorgroup>
+    <orgname>Red Hat Customer Content Services </orgname>
+</authorgroup>
+<xi:include href="Common_Content/Legal_Notice.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
