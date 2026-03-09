@@ -1,7 +1,5 @@
 = Ansible Automation Platform preview release notes
 
-==== Document title: Ansible Automation Platform preview release notes
-
 ==== Preview release notes to help you plan
 
 Red Hat wants you to know about upcoming changes in Ansible Automation Platform version 2.7 so you can prepare your environment before the next Ansible Automation Platform release. This document provides early access to information about upcoming changes deemed impactful enough to warrant extra notice. This document does not provide a comprehensive list of new features and changes planned for the next release.
@@ -23,7 +21,7 @@ To ensure a successful upgrade to the next version of the Ansible Automation Pla
 
 Upgrading directly from Ansible Automation Platform 2.4 or 2.5 to 2.7 is not supported.
 
-*Important*: If your current environment was installed via *RPM*, please note that *upgrades to AAP 2.7 are not supported for RPM-based installations.* Support for the RPM installer has ended with the release of version 2.7.
+*Important*: If your current environment was installed via *RPM*, please note that *upgrades to AAP 2.7 are not supported for RPM-based installations.* Support for the RPM installer ends with the release of version 2.7.
 
 ==== Event-Driven Ansible ansible.eda and ansible-rulebook changes
 
