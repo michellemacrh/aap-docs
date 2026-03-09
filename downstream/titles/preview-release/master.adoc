@@ -23,7 +23,7 @@ To ensure a successful upgrade to the next version of the Ansible Automation Pla
 
 Upgrading directly from Ansible Automation Platform 2.4 or 2.5 to 2.7 is not supported.
 
-*Important*: [line-through]#If installed via RPM, upgrades to AAP 2.7 are not supported. Please see the section below regarding RPM Installer support ending.# If your current environment was installed via *RPM*, please note that *upgrades to AAP 2.7 are not supported for RPM-based installations.* Support for the RPM installer has ended with the release of version 2.7.
+*Important*: If your current environment was installed via *RPM*, please note that *upgrades to AAP 2.7 are not supported for RPM-based installations.* Support for the RPM installer has ended with the release of version 2.7.
 
 ==== Event-Driven Ansible ansible.eda and ansible-rulebook changes
 
