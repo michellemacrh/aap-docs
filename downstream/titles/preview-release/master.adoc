@@ -1,142 +1,192 @@
 = Ansible Automation Platform preview release notes
 
-==== Preview release notes to help you plan
+== Preview release notes to help you plan
 
 Red Hat wants you to know about upcoming changes in Ansible Automation Platform version 2.7 so you can prepare your environment before the next Ansible Automation Platform release. This document provides early access to information about upcoming changes deemed impactful enough to warrant extra notice. This document does not provide a comprehensive list of new features and changes planned for the next release.
 
-==== Summary of changes
+== Summary of changes
 
 Note the following upcoming changes:
 
 * Supported upgrade paths
 * Event-Driven Ansible ansible.eda and ansible-rulebook changes
+* Execution environment builder in self-service automation portal (GA)
+* New required metrics service
 
-Supported upgrade paths
+== Supported upgrade paths
 
 To ensure a successful upgrade to the next version of the Ansible Automation Platform, you must follow a supported upgrade path as mentioned below:
 
-* 2.4 \-> 2.6 (recommended)
-* 2.5 \-> 2.6
-* 2.6 \-> 2.7
+* 2.4 to 2.6 (recommended)
+* 2.5 to 2.6
+* 2.6 to 2.7
 
 Upgrading directly from Ansible Automation Platform 2.4 or 2.5 to 2.7 is not supported.
 
-*Important*: If your current environment was installed via *RPM*, please note that *upgrades to AAP 2.7 are not supported for RPM-based installations.* Support for the RPM installer ends with the release of version 2.7.
+[IMPORTANT]
+====
+If your current environment was installed using *RPM*, note that *upgrades to AAP 2.7 are not supported for RPM-based installations.* Support for the RPM installer has ended with the release of version 2.7.
+====
 
-==== Event-Driven Ansible ansible.eda and ansible-rulebook changes
+== Execution environment builder (GA)
 
-*New ansible-rulebook built-in modules*
+Execution environment (EE) builder is now generally available. This feature was introduced as a Technology Preview in Ansible Automation Platform 2.6 and graduates to full support in version 2.7.
 
-The following event sources and event filters will be available as built-in modules in ansible-rulebook, and removed from ansible.collection.
+EE builder, delivered as part of the platform using self-service automation portal, reduces time-to-automate and provides governance for building execution environments.
+
+=== What is new in GA
+
+* *Automated SCM pipelines:* The EE builder generates SCM pipelines in GitHub or GitLab that automatically build EE images. This is in addition to the Technology Preview workflow, which allows users to download EE definition files and build images locally.
+* *Centralized content discovery:* Users discover and select Ansible collections from private automation hub and Git repositories within the EE Builder workflow.
+* *RBAC-aware content availability:* Users see and select only the collections they are authorized to access based on source-level permissions, enforcing organizational governance.
+
+== Event-Driven Ansible ansible.eda and ansible-rulebook changes
+
+=== New ansible-rulebook built-in modules
+
+The following event sources and event filters will be available as built-in modules in `ansible-rulebook`, and removed from `ansible.collection`.
 
 The following is the list of new built-in modules:
 
-* eda.builtin.dashes_to_underscores (filter)
-* eda.builtin.generic (source)
-* eda.builtin.insert_hosts_to_meta (filter)
-* eda.builtin.json_filter (filter)
-* eda.builtin.normalize_keys (filter)
-* eda.builtin.pg_listener (source)
-* eda.builtin.range (source)
-* eda.builtin.webhook (source)
+* `eda.builtin.dashes_to_underscores` (filter)
+* `eda.builtin.generic` (source)
+* `eda.builtin.insert_hosts_to_meta` (filter)
+* `eda.builtin.json_filter` (filter)
+* `eda.builtin.normalize_keys` (filter)
+* `eda.builtin.pg_listener` (source)
+* `eda.builtin.range` (source)
+* `eda.builtin.webhook` (source)
 
-For backwards compatibility, these plugins remain available in the ansible.eda namespace and are automatically mapped to eda.builtin. However, they are no longer actively maintained in the ansible.eda collection. If you currently have rulebooks that use these filters or sources, please update your rulebooks to use the eda.builtin namespace instead of the ansible.eda namespace.
+For backwards compatibility, these plugins remain available in the `ansible.eda` namespace and are automatically mapped to `eda.builtin`. However, they are no longer actively maintained in the link:https://console.redhat.com/ansible/automation-hub/collections/published/ansible/eda/documentation/[ansible.eda collection]. If you currently have rulebooks that use these filters or sources, update your rulebooks to use the `eda.builtin` namespace instead of the `ansible.eda` namespace.
 
-*AWS and Azure Event Sources movement to the Cloud collections*
+=== AWS and Azure event sources movement to the cloud collections
 
-The following list of Event Sources is being deprecated in ansible.eda collection and moving to the corresponding certified cloud collections. The DE-supported decision environments have been updated to incorporate amazon.aws and azure.azcollection. If you update the DE-supported decision environment, make sure to update your ansible-rulebooks namespace to refer to the updated namespace as mentioned below:
+The following list of event sources is being deprecated in `ansible.eda` collection and moving to the corresponding certified cloud collections. The DE-supported decision environments have been updated to incorporate `amazon.aws` and `azure.azcollection`. If you update the DE-supported decision environment, make sure to update your `ansible-rulebooks` namespace to refer to the updated namespace as mentioned below:
 
-ansible.eda.aws_cloudtrail \-> amazon.aws.aws_cloudtrail
+* `ansible.eda.aws_cloudtrail` to `amazon.aws.aws_cloudtrail`
+* `ansible.eda.aws_sqs_queue` to `amazon.aws.aws_sqs_queue`
+* `ansible.eda.azure_service_bus` to `azure.azcollection.azure_service_bus`
 
-ansible.eda.aws_sqs_queue \-> amazon.aws.aws_sqs_queue
+=== Event sources transitioning from ansible.eda to community.eda
 
-ansible.eda.azure_service_bus \-> azure.azcollection.azure_service_bus
-
-*Event Sources transitioning from ansible.eda to community.eda*
-
-The following list of Event Sources is being removed from the certified ansible.eda collection, won’t be supported by Red Hat engineering, but they will have community maintenance, and are available as part of the community.eda collection. If you are using any of these filters, make sure to update your ansible-rulebooks to use the community.eda namespace, and you will need a custom decision environment in order to keep running your rulebooks.
+The following list of event sources is being removed from the certified `ansible.eda` collection, will not be supported by Red Hat engineering, but they will have community maintenance, and are available as part of the `community.eda` collection. If you are using any of these filters, make sure to update your `ansible-rulebooks` to use the `community.eda` namespace, and you will need a custom decision environment in order to keep running your rulebooks.
 
 You can also keep your existing rulebooks with an older version of DE-supported or DE-minimal, while you update your rulebooks.
 
-ansible.eda.file \-> community.eda.file
+* `ansible.eda.file` to `community.eda.file`
+* `ansible.eda.file_watch` to `community.eda.file_watch`
+* `ansible.eda.journald` to `community.eda.journald`
+* `ansible.eda.tick` to use either `eda.builtin.generic` or `eda.builtin.range`
+* `ansible.eda.url_check` to `community.eda.url_check`
 
-ansible.eda.file_watch \-> community.eda.file_watch
+== New required metrics service
 
-ansible.eda.journald \-> community.eda.journald
+The Metrics Service is now a mandatory component of the Ansible Automation Platform. It is treated as a core architectural requirement, similar to automation controller or platform gateway, and cannot be opted out of during the installation process. This service collects key usage data of Ansible Automation Platform.
 
-ansible.eda.tick \-> use either eda.builtin.generic or eda.builtin.range
+To ensure a seamless "zero-config" experience for the majority of users, the installation program follows an opinionated placement strategy. The installation program will automatically select a default node (for example, the first platform gateway node) if not specified, though Ansible Automation Platform admins can explicitly define the [automationmetrics] inventory group. Note that this service requires a new database, so if external databases are going to be utilized in the deploy then those credentials need to be provided to the installation program.
 
-ansible.eda.url_check \-> community.eda.url_check
+== Deprecated features
 
-==== Deprecated features
+* APIs
+* Cloud EE Services
 
-Cloud EE Services
+=== Deprecation of the ee-cloud-services in Managed Application on Azure
 
-====
+Starting with the release of *Ansible Automation Platform 2.7*, the `ee-cloud-services` execution environment will not be available in fresh installations of 2.7. Customers are encouraged to transition their automation workflows to the `ee-supported` *or* build a new execution environment.
 
-===== Deprecation of the ee-cloud-services in Managed Application on Azure
-
-Starting with the release of *Ansible Automation Platform (AAP) 2.7*, the ee-cloud-services execution environment will not be available in fresh installations of AAP 2.7. Customers are encouraged to transition their automation workflows to the *ee-supported* *or* build a new execution environment.
-
-====== *Recommended Migration Steps*
+==== Recommended migration steps
 
 To ensure your automation continues to run smoothly on version 2.7, follow these best practices:
 
-*Audit Current Job Templates:* Identify which Job Templates currently use ee-cloud-services.
+. *Audit Current Job Templates:* Identify which Job Templates currently use `ee-cloud-services`.
 
-*Test with ee-supported:* Switch the Execution Environment on a test Job Template to *ee-supported*.
+. *Test with ee-supported:* Switch the Execution Environment on a test Job Template to `ee-supported`.
 
-*Identify Missing Dependencies:* If your playbooks fail due to missing Python libraries (e.g., boto3, azure-mgmt-compute) or specific Ansible collections, you will need to create a custom EE.
+. *Identify Missing Dependencies:* If your playbooks fail due to missing Python libraries (e.g., `boto3`, `azure-mgmt-compute`) or specific Ansible collections, you will need to create a custom EE.
 
-*Build Custom EEs via Ansible Builder:* Use the ee-supported or ee-minimal image as your base in your execution-environment.yml file:
+. *Build Custom EEs using Ansible Builder:* Use the `ee-supported` or `ee-minimal` image as your base in your `execution-environment.yml` file. 
 
-*Note:* For Managed Cloud customers, ensure your private automation hub is configured to sync the latest images from the Red Hat ecosystem to maintain access to the supported ee-supported images.
+[NOTE]
+====
+For Managed Cloud customers, ensure your private automation hub is configured to sync the latest images from the Red Hat ecosystem to maintain access to the supported `ee-supported` images.
+====
 
-====== *Summary of Support*
+==== Summary of support
 
-*Existing Installs:* Upgraded environments may retain ee-cloud-services for a limited grace period, but it is considered "End of Life."
+* *Existing Installs:* Upgraded environments may retain `ee-cloud-services` for a limited grace period, but it is considered "End of Life."
 
-*Fresh Installs:* ee-supported & ee-minimal are the only cloud-focused EE provided out of the box.
+* *Fresh Installs:* `ee-supported` & `ee-minimal` are the only cloud-focused EE provided out of the box.
 
-Event-Driven Ansible ansible.eda.noop is deprecated and there won’t be a replacement
+* Event-Driven Ansible `ansible.eda.noop` is deprecated and there will not be a replacement.
 
-==== Removed features
+=== Python 3.11 and earlier versions deprecated
 
-====== *Removal of Direct Component API Access*
+Support for *Python 3.11* and all earlier versions is being phased out across all *Supported Execution Environments* and *Minimal Execution Environments*. To ensure security compliance and access to the latest performance optimizations, users must migrate to *Python 3.12* or higher.
 
-The next version of Ansible Automation Platform (AAP) marks the completion of the platform unification initiative introduced in AAP 2.5. With this release, the platform gateway becomes the sole entry point for all AAP interactions, replacing direct API access to Automation Controller, Automation Hub, and Event-Driven Ansible (EDA).
+==== Affected environments
+
+*1. Supported Execution Environments*
+
+These environments typically include the full standard library and common pre-installed dependencies.
+
+*2. Minimal Execution Environments*
+
+These are stripped-down, security-hardened environments used for Custom EE's.
+
+==== Action required
+
+Audit custom-built binaries. Python 3.11 minimal layers will no longer receive security vulnerability (CVE) patches.
+
+*Recommendation:* Move to the python:3.12+ or equivalent Minimal EE instance.
+
+==== Why this is happening
+
+Python 3.12+ offers significant improvements that older environments cannot support, specifically:
+
+* *Improved Error Messages:* More precise tracebacks for faster debugging.
+* *Performance:* Advancements in the Faster CPython project.
+* *Security:* Removal of deprecated APIs and older TLS versions that are increasingly vulnerable.
+
+== Removed features
+
+=== Removal of direct component API access
+
+The next version of Ansible Automation Platform marks the completion of the platform unification initiative introduced in Ansible Automation Platform 2.5. With this release, the platform gateway becomes the sole entry point for all Ansible Automation Platform interactions, replacing direct API access to automation controller, automation hub, and Event-Driven Ansible.
 
 This change centralizes organization management, authentication, and access control through a single, unified interface — providing a more consistent and secure experience across all automation capabilities within the platform.
 
-Important: Any existing direct integrations with Controller, Hub, or EDA APIs must be migrated to route through the platform gateway prior to upgrading to the next version of AAP.
+[IMPORTANT]
+====
+Any existing direct integrations with automation controller, automation hub, or Event-Driven Ansible APIs must be migrated to route through the platform gateway prior to upgrading to the next version of Ansible Automation Platform.
+====
 
-Background
+==== Previous compatibility support
 
-AAP 2.5 and 2.6 maintained backward compatibility with pre-unification access patterns to provide a transition period for customers migrating to the unified platform. This compatibility layer is now removed. Integrations that continued to function through an upgrade from 2.4 to 2.6 will require remediation before upgrading.
+Ansible Automation Platform 2.5 and 2.6 maintained backward compatibility with pre-unification access patterns to provide a transition period for customers migrating to the unified platform. This compatibility layer is now removed. Integrations that continued to function through an upgrade from 2.4 to 2.6 will require remediation before upgrading.
 
-*Pre-Upgrade Migration Assessment*
+==== Pre-upgrade migration assessment
 
 Before upgrading, review your environment for the following direct-access patterns, all of which require a migration plan:
 
 [options="header"]
 |===
 | *Area* | *What to Review*
-| *User & Org Management* | Any organization, team, or user management interfacing directly with Controller or Hub APIs or collections
-| *Authentication* | Legacy users authenticating via basic auth directly to Controller
-| *Tokens & OAuth* | Legacy Personal Access Tokens (PATs) or OAuth applications connecting directly to Controller
-| *Image Management* | Any container registry processes managing images directly on Private Automation Hub (PAH)
+| *User & Org Management* | Any organization, team, or user management interfacing directly with automation controller or automation hub APIs or collections
+| *Authentication* | Legacy users authenticating with basic auth directly to automation controller
+| *Tokens & OAuth* | Legacy Personal Access Tokens (PATs) or OAuth applications connecting directly to automation controller
+| *Image Management* | Any container registry processes managing images directly on private automation hub 
 | *Access Control* | RBAC configurations managed directly on individual components rather than through platform gateway
-| *Job Management* | Job template or job re-execution triggers to launch jobs directly to the automation controller
-| *Inventory Management* | Managing Inventory via the automation controller to add/edit/remove inventory groups or nodes
-| *Project Management* | Managing SCM projects via the automation controller to add/edit/remove projects.
+| *Job Management* | Job template or job re-execution triggers to launch jobs directly to automation controller
+| *Inventory Management* | Managing Inventory using automation controller to add, edit, or remove inventory groups or nodes
+| *Project Management* | Managing SCM projects using automation controller to add, edit, or remove projects.
 |===
 
 All of the above must be migrated to use the equivalent functionality provided by the platform gateway.
 
-*Direct Access Detection Tooling*
+==== Direct access detection tooling
 
-To help you assess the scope of your migration effort, Red Hat has developed a tooling to identify legacy direct-access interactions across your AAP deployment of 2.6 for containerized & operator based installations. (Additional details forthcoming.)
+To help you assess the scope of your migration effort, Red Hat has developed a tooling to identify legacy direct-access interactions across your Ansible Automation Platform deployment of 2.6 for containerized & operator based installations (additional details forthcoming).
 
-====== *Removal of RPM Installer in Ansible Automation Platform 2.7*
+=== Removal of RPM installer in Ansible Automation Platform 2.7
 
-In the Ansible Automation Platform 2.5, the RPM installer was deprecated. Starting with Ansible Automation Platform 2.7, we are no longer providing the installer, and customers who have AAP installed via RPM must migrate to either the containerised or Openshift AAP Operator. Please follow the guidelines for migrating to a new topology found here. Customers must first migrate to the new supported topology on the version that they are currently running (i.e AAP 2.6 RPM to AAP 2.6 containerised) before upgrading to AAP 2.7.
+In Ansible Automation Platform 2.5 release, the RPM installer was deprecated. Starting with Ansible Automation Platform 2.7, we are no longer providing the installer, and customers who have Ansible Automation Platform installed using RPM must migrate to either the containerised or Openshift Ansible Automation Platform Operator. Follow the guidelines for link:https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.6/html/ansible_automation_platform_migration/index[migrating to a new topology]. Customers must first migrate to the new supported topology on the version that they are currently running (that is, Ansible Automation Platform 2.6 RPM to Ansible Automation Platform 2.6 containerised) before upgrading to Ansible Automation Platform 2.7.
