@@ -10,3 +10,4 @@ With this installation method, you manage both the product and infrastructure li
 
 Containerized {PlatformNameShort} runs as rootless containers for enhanced security by default. 
 You can install and operate {PlatformNameShort} with a non-root user account.
+
