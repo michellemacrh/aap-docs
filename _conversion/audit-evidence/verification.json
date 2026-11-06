@@ -1,0 +1,1448 @@
+{
+  "date": "2026-11-06",
+  "source_head": "dce13e14d271e4dce0fb01f63a32496076db9039",
+  "source_base": "d7307c91c2",
+  "environment": {
+    "image_id": "aafcc2d86d6bf7fadf05a52ddf71d6a43b2a169c5b0f4ae90834d3710ca1446b",
+    "image_created": "2026-10-23T10:44:06.929664511Z",
+    "dita_ot": "DITA-OT version 4.4.1"
+  },
+  "execution_paths": "Commands retain historical disposable paths; these are provenance, not executable scripts for the cleaned repository.",
+  "map_nesting": {
+    "source_head": "dce13e14d271e4dce0fb01f63a32496076db9039",
+    "scope_basis": "17 retained generated AsciiDoc maps; original CSV unavailable",
+    "expected_source_paths": [
+      "aap-clouds/stories/assembly-saas-aap-best-practices.adoc",
+      "aap-clouds/stories/assembly-saas-account-management.adoc",
+      "aap-clouds/stories/assembly-saas-business-continuity.adoc",
+      "aap-clouds/stories/assembly-saas-control-plane.adoc",
+      "aap-clouds/stories/assembly-saas-execution-plane.adoc",
+      "aap-clouds/stories/assembly-saas-intro.adoc",
+      "aap-clouds/stories/assembly-saas-post-deloyment-configuration.adoc",
+      "aap-clouds/stories/assembly-saas-post-install-config.adoc",
+      "aap-clouds/stories/assembly-saas-private-link.adoc",
+      "aap-clouds/stories/assembly-saas-pull-push.adoc",
+      "aap-clouds/stories/assembly-saas-service-definition.adoc",
+      "aap-clouds/stories/assembly-saas-set-up.adoc",
+      "aap-clouds/stories/assembly-saas-subscription-lifecycle.adoc",
+      "aap-clouds/stories/assembly-saas-support.adoc",
+      "aap-clouds/topics/con-aap-notification-feed.adoc",
+      "aap-clouds/topics/con-saas-application-monitoring-and-customer-audits.adoc",
+      "aap-clouds/topics/con-saas-automation-for-instance-groups.adoc",
+      "aap-clouds/topics/con-saas-automation-mesh.adoc",
+      "aap-clouds/topics/con-saas-automation.adoc",
+      "aap-clouds/topics/con-saas-aws-vs-redhat-subscription.adoc",
+      "aap-clouds/topics/con-saas-backup-and-disaster-recovery.adoc",
+      "aap-clouds/topics/con-saas-billing.adoc",
+      "aap-clouds/topics/con-saas-config-aws-privatelink.adoc",
+      "aap-clouds/topics/con-saas-connectivity.adoc",
+      "aap-clouds/topics/con-saas-contract-end-trigger.adoc",
+      "aap-clouds/topics/con-saas-custom-domain.adoc",
+      "aap-clouds/topics/con-saas-customer-access.adoc",
+      "aap-clouds/topics/con-saas-deployment-self-service.adoc",
+      "aap-clouds/topics/con-saas-dns.adoc",
+      "aap-clouds/topics/con-saas-encryption.adoc",
+      "aap-clouds/topics/con-saas-hosted-components.adoc",
+      "aap-clouds/topics/con-saas-how-private-link-works.adoc",
+      "aap-clouds/topics/con-saas-identity-and-access-management.adoc",
+      "aap-clouds/topics/con-saas-infrastructure-monitoring.adoc",
+      "aap-clouds/topics/con-saas-limited-support-status.adoc",
+      "aap-clouds/topics/con-saas-monitoring.adoc",
+      "aap-clouds/topics/con-saas-networking-with-overlapping-CIDR-blocks.adoc",
+      "aap-clouds/topics/con-saas-networking.adoc",
+      "aap-clouds/topics/con-saas-private-link-benefits.adoc",
+      "aap-clouds/topics/con-saas-privatelink-config-types.adoc",
+      "aap-clouds/topics/con-saas-regions.adoc",
+      "aap-clouds/topics/con-saas-responsibilities.adoc",
+      "aap-clouds/topics/con-saas-security.adoc",
+      "aap-clouds/topics/con-saas-service-uptime.adoc",
+      "aap-clouds/topics/con-saas-shape.adoc",
+      "aap-clouds/topics/con-saas-sla.adoc",
+      "aap-clouds/topics/con-saas-sre-access-and-management.adoc",
+      "aap-clouds/topics/con-saas-status-notification.adoc",
+      "aap-clouds/topics/con-saas-sync-with-pah.adoc",
+      "aap-clouds/topics/con-saas-updates-and-maintenance.adoc",
+      "aap-clouds/topics/proc-saas-config-egress-privatelink.adoc",
+      "aap-clouds/topics/proc-saas-config-ingress-privatelink.adoc",
+      "aap-clouds/topics/proc-saas-custom-dom-with-awsprivatelink.adoc",
+      "aap-clouds/topics/proc-saas-custom-dom-without-awsprivatelink.adoc",
+      "aap-clouds/topics/proc-saas-customizing-your-domain.adoc",
+      "aap-clouds/topics/proc-saas-disconnect-egress-privatelink.adoc",
+      "aap-clouds/topics/proc-saas-disconnect-ingress-privatelink.adoc",
+      "aap-clouds/topics/proc-saas-existing-customers.adoc",
+      "aap-clouds/topics/proc-saas-ingress-configuration-without.adoc",
+      "aap-clouds/topics/proc-saas-initiate-business-continuity-test.adoc",
+      "aap-clouds/topics/proc-saas-primary-deployment-footprint.adoc",
+      "aap-clouds/topics/proc-saas-request-regional-failover.adoc",
+      "aap-clouds/topics/proc-saas-restore-environment-after-contract-end.adoc",
+      "aap-clouds/topics/proc-saas-set-up-private.adoc",
+      "aap-clouds/topics/proc-saas-set-up-public.adoc",
+      "aap-clouds/topics/proc-saas-standard-ingress-configuration.adoc",
+      "aap-clouds/topics/ref-saas-changing-your-maintenance-window.adoc",
+      "aap-clouds/topics/ref-saas-custom-domain-certs.adoc",
+      "aap-clouds/topics/ref-saas-customer-notification-and-confirmation.adoc",
+      "aap-clouds/topics/ref-saas-deploy-requirements.adoc",
+      "aap-clouds/topics/ref-saas-disconnect-aws-privatelink.adoc",
+      "aap-clouds/topics/ref-saas-eda-perf.adoc",
+      "aap-clouds/topics/ref-saas-egress-model.adoc",
+      "aap-clouds/topics/ref-saas-enabling-aws-privatelink.adoc",
+      "aap-clouds/topics/ref-saas-exe-plane-strategy.adoc",
+      "aap-clouds/topics/ref-saas-failure-domains.adoc",
+      "aap-clouds/topics/ref-saas-guidance-parameters.adoc",
+      "aap-clouds/topics/ref-saas-inbound-traffic-control.adoc",
+      "aap-clouds/topics/ref-saas-infrastructure-cost-breakdown.adoc",
+      "aap-clouds/topics/ref-saas-infrastructure-metering.adoc",
+      "aap-clouds/topics/ref-saas-infrastructure-requirements.adoc",
+      "aap-clouds/topics/ref-saas-mesh-configuration.adoc",
+      "aap-clouds/topics/ref-saas-mesh-ingress-model.adoc",
+      "aap-clouds/topics/ref-saas-metering-implications-idle.adoc",
+      "aap-clouds/topics/ref-saas-network-dns-routing.adoc",
+      "aap-clouds/topics/ref-saas-new-customers.adoc",
+      "aap-clouds/topics/ref-saas-notification-timeline.adoc",
+      "aap-clouds/topics/ref-saas-prepare-deployment.adoc",
+      "aap-clouds/topics/ref-saas-primary-region-status.adoc",
+      "aap-clouds/topics/ref-saas-privatelink-traffic-flow.adoc",
+      "aap-clouds/topics/ref-saas-regional-outages.adoc",
+      "aap-clouds/topics/ref-saas-rollback-protocol.adoc",
+      "aap-clouds/topics/ref-saas-schedule-business-continuity-tests.adoc",
+      "aap-clouds/topics/ref-saas-service-outages.adoc",
+      "aap-clouds/topics/ref-saas-sre-locations.adoc",
+      "aap-clouds/topics/ref-saas-subscription-lifecycle-timeline.adoc",
+      "aap-clouds/topics/ref-saas-subscription-scenario-outcomes.adoc",
+      "aap-clouds/topics/ref-saas-technical-operational-impacts.adoc",
+      "aap-clouds/topics/ref-saas-what-idle-means.adoc"
+    ],
+    "cases": {
+      "baseline": {
+        "flags": "-rC",
+        "conversion_exit": 0,
+        "map_count": 31,
+        "topic_count": 100,
+        "invalid_mapref_warnings": 85,
+        "invalid_mapref_maps": [
+          "account-management.ditamap",
+          "control-plane.ditamap",
+          "execution-plane.ditamap",
+          "multiregion-activepassive-infrastructure.ditamap",
+          "red-hat-ansible-automation-platform-best-practices.ditamap",
+          "red-hat-ansible-automation-platform-service-on-aws-private-link-connectivity.ditamap",
+          "red-hat-ansible-automation-platform-service-on-aws-pull-and-push-models.ditamap",
+          "red-hat-ansible-automation-platform-service-on-aws-subscription-lifecycle.ditamap",
+          "set-up-red-hat-ansible-automation-platform-service-on-aws.ditamap",
+          "support.ditamap"
+        ],
+        "missing_map_targets": [],
+        "xml_errors": [],
+        "fatal_messages": [],
+        "missing_expected_topics": [],
+        "expected_topic_occurrences_not_one": {
+          "aap-clouds/topics/con-aap-notification-feed.dita": 2,
+          "aap-clouds/topics/con-saas-application-monitoring-and-customer-audits.dita": 2,
+          "aap-clouds/topics/con-saas-automation-for-instance-groups.dita": 2,
+          "aap-clouds/topics/con-saas-automation-mesh.dita": 2,
+          "aap-clouds/topics/con-saas-automation.dita": 2,
+          "aap-clouds/topics/con-saas-aws-vs-redhat-subscription.dita": 2,
+          "aap-clouds/topics/con-saas-backup-and-disaster-recovery.dita": 2,
+          "aap-clouds/topics/con-saas-billing.dita": 2,
+          "aap-clouds/topics/con-saas-config-aws-privatelink.dita": 2,
+          "aap-clouds/topics/con-saas-connectivity.dita": 2,
+          "aap-clouds/topics/con-saas-contract-end-trigger.dita": 2,
+          "aap-clouds/topics/con-saas-custom-domain.dita": 2,
+          "aap-clouds/topics/con-saas-customer-access.dita": 2,
+          "aap-clouds/topics/con-saas-deployment-self-service.dita": 2,
+          "aap-clouds/topics/con-saas-dns.dita": 2,
+          "aap-clouds/topics/con-saas-encryption.dita": 2,
+          "aap-clouds/topics/con-saas-hosted-components.dita": 2,
+          "aap-clouds/topics/con-saas-how-private-link-works.dita": 2,
+          "aap-clouds/topics/con-saas-identity-and-access-management.dita": 2,
+          "aap-clouds/topics/con-saas-infrastructure-monitoring.dita": 2,
+          "aap-clouds/topics/con-saas-limited-support-status.dita": 2,
+          "aap-clouds/topics/con-saas-monitoring.dita": 2,
+          "aap-clouds/topics/con-saas-networking-with-overlapping-CIDR-blocks.dita": 2,
+          "aap-clouds/topics/con-saas-networking.dita": 2,
+          "aap-clouds/topics/con-saas-private-link-benefits.dita": 2,
+          "aap-clouds/topics/con-saas-privatelink-config-types.dita": 2,
+          "aap-clouds/topics/con-saas-regions.dita": 2,
+          "aap-clouds/topics/con-saas-responsibilities.dita": 2,
+          "aap-clouds/topics/con-saas-security.dita": 2,
+          "aap-clouds/topics/con-saas-service-uptime.dita": 2,
+          "aap-clouds/topics/con-saas-shape.dita": 2,
+          "aap-clouds/topics/con-saas-sla.dita": 2,
+          "aap-clouds/topics/con-saas-sre-access-and-management.dita": 2,
+          "aap-clouds/topics/con-saas-status-notification.dita": 2,
+          "aap-clouds/topics/con-saas-sync-with-pah.dita": 2,
+          "aap-clouds/topics/con-saas-updates-and-maintenance.dita": 2,
+          "aap-clouds/topics/proc-saas-config-egress-privatelink.dita": 2,
+          "aap-clouds/topics/proc-saas-config-ingress-privatelink.dita": 2,
+          "aap-clouds/topics/proc-saas-custom-dom-with-awsprivatelink.dita": 2,
+          "aap-clouds/topics/proc-saas-custom-dom-without-awsprivatelink.dita": 2,
+          "aap-clouds/topics/proc-saas-customizing-your-domain.dita": 2,
+          "aap-clouds/topics/proc-saas-disconnect-egress-privatelink.dita": 2,
+          "aap-clouds/topics/proc-saas-disconnect-ingress-privatelink.dita": 2,
+          "aap-clouds/topics/proc-saas-existing-customers.dita": 2,
+          "aap-clouds/topics/proc-saas-ingress-configuration-without.dita": 2,
+          "aap-clouds/topics/proc-saas-initiate-business-continuity-test.dita": 2,
+          "aap-clouds/topics/proc-saas-primary-deployment-footprint.dita": 2,
+          "aap-clouds/topics/proc-saas-request-regional-failover.dita": 2,
+          "aap-clouds/topics/proc-saas-restore-environment-after-contract-end.dita": 2,
+          "aap-clouds/topics/proc-saas-set-up-private.dita": 2,
+          "aap-clouds/topics/proc-saas-set-up-public.dita": 2,
+          "aap-clouds/topics/proc-saas-standard-ingress-configuration.dita": 2,
+          "aap-clouds/topics/ref-saas-changing-your-maintenance-window.dita": 2,
+          "aap-clouds/topics/ref-saas-custom-domain-certs.dita": 2,
+          "aap-clouds/topics/ref-saas-customer-notification-and-confirmation.dita": 2,
+          "aap-clouds/topics/ref-saas-deploy-requirements.dita": 2,
+          "aap-clouds/topics/ref-saas-disconnect-aws-privatelink.dita": 2,
+          "aap-clouds/topics/ref-saas-eda-perf.dita": 2,
+          "aap-clouds/topics/ref-saas-egress-model.dita": 2,
+          "aap-clouds/topics/ref-saas-enabling-aws-privatelink.dita": 2,
+          "aap-clouds/topics/ref-saas-exe-plane-strategy.dita": 2,
+          "aap-clouds/topics/ref-saas-failure-domains.dita": 2,
+          "aap-clouds/topics/ref-saas-guidance-parameters.dita": 2,
+          "aap-clouds/topics/ref-saas-inbound-traffic-control.dita": 2,
+          "aap-clouds/topics/ref-saas-infrastructure-cost-breakdown.dita": 2,
+          "aap-clouds/topics/ref-saas-infrastructure-metering.dita": 2,
+          "aap-clouds/topics/ref-saas-infrastructure-requirements.dita": 2,
+          "aap-clouds/topics/ref-saas-mesh-configuration.dita": 2,
+          "aap-clouds/topics/ref-saas-mesh-ingress-model.dita": 2,
+          "aap-clouds/topics/ref-saas-metering-implications-idle.dita": 2,
+          "aap-clouds/topics/ref-saas-network-dns-routing.dita": 2,
+          "aap-clouds/topics/ref-saas-new-customers.dita": 2,
+          "aap-clouds/topics/ref-saas-notification-timeline.dita": 2,
+          "aap-clouds/topics/ref-saas-prepare-deployment.dita": 2,
+          "aap-clouds/topics/ref-saas-primary-region-status.dita": 2,
+          "aap-clouds/topics/ref-saas-privatelink-traffic-flow.dita": 2,
+          "aap-clouds/topics/ref-saas-regional-outages.dita": 2,
+          "aap-clouds/topics/ref-saas-rollback-protocol.dita": 2,
+          "aap-clouds/topics/ref-saas-schedule-business-continuity-tests.dita": 2,
+          "aap-clouds/topics/ref-saas-service-outages.dita": 2,
+          "aap-clouds/topics/ref-saas-sre-locations.dita": 2,
+          "aap-clouds/topics/ref-saas-subscription-lifecycle-timeline.dita": 2,
+          "aap-clouds/topics/ref-saas-subscription-scenario-outcomes.dita": 2,
+          "aap-clouds/topics/ref-saas-technical-operational-impacts.dita": 2,
+          "aap-clouds/topics/ref-saas-what-idle-means.dita": 2
+        },
+        "converted_topics_outside_navigation": [],
+        "job_introductions": {
+          "aap-service-aws-discover.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-intro.adoc",
+            "title": "Introduction to Red Hat Ansible Automation Platform Service on AWS",
+            "shortdesc": "With the Red Hat Ansible Automation Platform Service on AWS, you can purchase and deploy Ansible Automation Platform through AWS Marketplace.\nRed\u00a0Hat configures and provisions an Ansible Automation Platform environment and then maintains it, ensuring reliability and security.",
+            "repeated_topic_hrefs": []
+          },
+          "aap-service-aws-plan.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-service-definition.adoc",
+            "title": "Red Hat Ansible Automation Platform Service on AWS Service Definition",
+            "shortdesc": "The service definition details the shared responsibilities between Red Hat, which manages the control plane, and the customer, who manages the execution plane.",
+            "repeated_topic_hrefs": []
+          },
+          "red-hat-ansible-automation-platform-service-on-aws-pull-and-push-models.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-pull-push.adoc",
+            "title": "Red Hat Ansible Automation Platform Service on AWS PULL and PUSH models",
+            "shortdesc": "There are two communication methods, PULL and PUSH, available for connecting your execution plane nodes to the Ansible Automation Platform Service on AWS control plane.",
+            "repeated_topic_hrefs": []
+          },
+          "control-plane.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-control-plane.adoc",
+            "title": "Control plane",
+            "shortdesc": "The Ansible Automation Platform control plane includes the application UIs, APIs, components, and services used for managing automation.\nRed\u00a0Hat manages these within its own infrastructure.",
+            "repeated_topic_hrefs": []
+          },
+          "execution-plane.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-execution-plane.adoc",
+            "title": "Execution plane",
+            "shortdesc": "You can only run test and cleanup jobs on the default or controller execution planes. All other automation must be configured to run on your execution plane.",
+            "repeated_topic_hrefs": []
+          },
+          "aap-service-aws-get-started.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-post-install-config.adoc",
+            "title": "Configure Red Hat Ansible Automation Platform Service on AWS",
+            "shortdesc": "After you subscribe to Ansible Automation Platform Service on AWS and gain access to Ansible Automation Platform, you must configure your automation mesh nodes and set up your automation jobs.",
+            "repeated_topic_hrefs": []
+          },
+          "set-up-red-hat-ansible-automation-platform-service-on-aws.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-set-up.adoc",
+            "title": "Set up Red Hat Ansible Automation Platform Service on AWS",
+            "shortdesc": "To set up Red Hat Ansible Automation Platform Service on AWS you must first accept an offer. You can accept a public offer through the AWS Marketplace, or a private offer directly from a Red\u00a0Hat seller.",
+            "repeated_topic_hrefs": []
+          },
+          "account-management.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-account-management.adoc",
+            "title": "Account management",
+            "shortdesc": "This section provides an overview of the billing and environment management operations.",
+            "repeated_topic_hrefs": []
+          },
+          "support.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-support.adoc",
+            "title": "Support",
+            "shortdesc": "Red Hat Ansible Automation Platform Service on AWS includes Red\u00a0Hat Premium Support, accessible through the Red Hat Customer Portal.",
+            "repeated_topic_hrefs": []
+          },
+          "red-hat-ansible-automation-platform-service-on-aws-subscription-lifecycle.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-subscription-lifecycle.adoc",
+            "title": "Red Hat Ansible Automation Platform Service on AWS subscription lifecycle",
+            "shortdesc": "When your AWS subscription for Red Hat Ansible Automation Platform Service on AWS ends, your environment follows a defined lifecycle. Understanding this timeline helps you plan subscription renewals and avoid unintended data loss.",
+            "repeated_topic_hrefs": []
+          },
+          "red-hat-ansible-automation-platform-best-practices.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-aap-best-practices.adoc",
+            "title": "Red Hat Ansible Automation Platform best practices",
+            "shortdesc": "This section covers Ansible Automation Platform product use that has specific content or context for using Ansible Automation Platform as a service.",
+            "repeated_topic_hrefs": []
+          },
+          "aap-service-aws-configure.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-post-deloyment-configuration.adoc",
+            "title": "Post-deployment configurations for Multi-Region Active/Passive",
+            "shortdesc": "To maintain continuous automation mesh connectivity during a regional failover, configure AWS PrivateLink endpoints, route tables, and network security policies in your secondary region.",
+            "repeated_topic_hrefs": []
+          },
+          "red-hat-ansible-automation-platform-service-on-aws-private-link-connectivity.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-private-link.adoc",
+            "title": "Red Hat Ansible Automation Platform Service on AWS Private Link Connectivity",
+            "shortdesc": "Private link connectivity is a networking feature commonly used in cloud environments.\nPrivate link connectivity allows services to communicate privately over a secure, internal network without exposing traffic to the public internet.\nOn AWS, private link connectivity is known as AWS PrivateLink.",
+            "repeated_topic_hrefs": []
+          },
+          "multiregion-activepassive-infrastructure.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-business-continuity.adoc",
+            "title": "Multi-Region Active/Passive infrastructure",
+            "shortdesc": "",
+            "repeated_topic_hrefs": []
+          }
+        },
+        "build_exit": 1,
+        "dita_message_codes": {
+          "DOTJ088E": 11,
+          "DOTX008E": 11,
+          "DOTX068W": 30
+        },
+        "dita_error_lines": [
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/account-management.ditamap:12:12: [DOTJ088E] XML parsing error: The content of element type \"mapref\" must match \"(topicmeta?,(data|sort-as|data-about)*)\".",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/control-plane.ditamap:28:12: [DOTJ088E] XML parsing error: The content of element type \"mapref\" must match \"(topicmeta?,(data|sort-as|data-about)*)\".",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/assembly-saas-control-plane.dita:11:188: [DOTJ088E] XML parsing error: Attribute value \"however the diagram illustrated that each deployment is isolated by an independent and unconnected AWS infastructure.\" of type NMTOKEN must be a name token.",
+          "Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/AWS_tenant_isolation.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/AWS_tenant_isolation.png' exists and that you have permission to access it.",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/execution-plane.ditamap:15:12: [DOTJ088E] XML parsing error: The content of element type \"mapref\" must match \"(topicmeta?,(data|sort-as|data-about)*)\".",
+          "Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/topics/automation_mesh.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/topics/automation_mesh.png' exists and that you have permission to access it.",
+          "Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/topics/automation_mesh.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/topics/automation_mesh.png' exists and that you have permission to access it.",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/multiregion-activepassive-infrastructure.ditamap:29:12: [DOTJ088E] XML parsing error: The content of element type \"mapref\" must match \"(topicmeta?,(data|sort-as|data-about)*)\".",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/red-hat-ansible-automation-platform-best-practices.ditamap:8:12: [DOTJ088E] XML parsing error: The content of element type \"mapref\" must match \"(topicmeta?,(data|sort-as|data-about)*)\".",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/red-hat-ansible-automation-platform-service-on-aws-private-link-connectivity.ditamap:16:12: [DOTJ088E] XML parsing error: The content of element type \"mapref\" must match \"(topicmeta?,(data|sort-as|data-about)*)\".",
+          "Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/topics/one-zone-subnet.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/topics/one-zone-subnet.png' exists and that you have permission to access it.",
+          "Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/topics/many-zone-subnet.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/topics/many-zone-subnet.png' exists and that you have permission to access it.",
+          "Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/topics/one-zone-subnet.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/topics/one-zone-subnet.png' exists and that you have permission to access it.",
+          "Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/topics/many-zone-subnet.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/topics/many-zone-subnet.png' exists and that you have permission to access it.",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/red-hat-ansible-automation-platform-service-on-aws-pull-and-push-models.ditamap:9:12: [DOTJ088E] XML parsing error: The content of element type \"mapref\" must match \"(topicmeta?,(data|sort-as|data-about)*)\".",
+          "Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/topics/mesh_egress.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/topics/mesh_egress.png' exists and that you have permission to access it.",
+          "Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/topics/mesh_ingress.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/topics/mesh_ingress.png' exists and that you have permission to access it.",
+          "Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/topics/mesh_egress.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/topics/mesh_egress.png' exists and that you have permission to access it.",
+          "Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/topics/mesh_ingress.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/topics/mesh_ingress.png' exists and that you have permission to access it.",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/red-hat-ansible-automation-platform-service-on-aws-subscription-lifecycle.ditamap:11:12: [DOTJ088E] XML parsing error: The content of element type \"mapref\" must match \"(topicmeta?,(data|sort-as|data-about)*)\".",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/set-up-red-hat-ansible-automation-platform-service-on-aws.ditamap:9:12: [DOTJ088E] XML parsing error: The content of element type \"mapref\" must match \"(topicmeta?,(data|sort-as|data-about)*)\".",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/support.ditamap:8:12: [DOTJ088E] XML parsing error: The content of element type \"mapref\" must match \"(topicmeta?,(data|sort-as|data-about)*)\"."
+        ],
+        "all_assembly_introductions": {
+          "aap-clouds/stories/assembly-saas-aap-best-practices.adoc": {
+            "title": "Red Hat Ansible Automation Platform best practices",
+            "shortdesc": "This section covers Ansible Automation Platform product use that has specific content or context for using Ansible Automation Platform as a service."
+          },
+          "aap-clouds/stories/assembly-saas-account-management.adoc": {
+            "title": "Account management",
+            "shortdesc": "This section provides an overview of the billing and environment management operations."
+          },
+          "aap-clouds/stories/assembly-saas-business-continuity.adoc": {
+            "title": "Multi-Region Active/Passive infrastructure",
+            "shortdesc": ""
+          },
+          "aap-clouds/stories/assembly-saas-control-plane.adoc": {
+            "title": "Control plane",
+            "shortdesc": "The Ansible Automation Platform control plane includes the application UIs, APIs, components, and services used for managing automation.\nRed\u00a0Hat manages these within its own infrastructure."
+          },
+          "aap-clouds/stories/assembly-saas-execution-plane.adoc": {
+            "title": "Execution plane",
+            "shortdesc": "You can only run test and cleanup jobs on the default or controller execution planes. All other automation must be configured to run on your execution plane."
+          },
+          "aap-clouds/stories/assembly-saas-intro.adoc": {
+            "title": "Introduction to Red Hat Ansible Automation Platform Service on AWS",
+            "shortdesc": "With the Red Hat Ansible Automation Platform Service on AWS, you can purchase and deploy Ansible Automation Platform through AWS Marketplace.\nRed\u00a0Hat configures and provisions an Ansible Automation Platform environment and then maintains it, ensuring reliability and security."
+          },
+          "aap-clouds/stories/assembly-saas-post-deloyment-configuration.adoc": {
+            "title": "Post-deployment configurations for Multi-Region Active/Passive",
+            "shortdesc": "To maintain continuous automation mesh connectivity during a regional failover, configure AWS PrivateLink endpoints, route tables, and network security policies in your secondary region."
+          },
+          "aap-clouds/stories/assembly-saas-post-install-config.adoc": {
+            "title": "Configure Red Hat Ansible Automation Platform Service on AWS",
+            "shortdesc": "After you subscribe to Ansible Automation Platform Service on AWS and gain access to Ansible Automation Platform, you must configure your automation mesh nodes and set up your automation jobs."
+          },
+          "aap-clouds/stories/assembly-saas-private-link.adoc": {
+            "title": "Red Hat Ansible Automation Platform Service on AWS Private Link Connectivity",
+            "shortdesc": "Private link connectivity is a networking feature commonly used in cloud environments.\nPrivate link connectivity allows services to communicate privately over a secure, internal network without exposing traffic to the public internet.\nOn AWS, private link connectivity is known as AWS PrivateLink."
+          },
+          "aap-clouds/stories/assembly-saas-pull-push.adoc": {
+            "title": "Red Hat Ansible Automation Platform Service on AWS PULL and PUSH models",
+            "shortdesc": "There are two communication methods, PULL and PUSH, available for connecting your execution plane nodes to the Ansible Automation Platform Service on AWS control plane."
+          },
+          "aap-clouds/stories/assembly-saas-service-definition.adoc": {
+            "title": "Red Hat Ansible Automation Platform Service on AWS Service Definition",
+            "shortdesc": "The service definition details the shared responsibilities between Red Hat, which manages the control plane, and the customer, who manages the execution plane."
+          },
+          "aap-clouds/stories/assembly-saas-set-up.adoc": {
+            "title": "Set up Red Hat Ansible Automation Platform Service on AWS",
+            "shortdesc": "To set up Red Hat Ansible Automation Platform Service on AWS you must first accept an offer. You can accept a public offer through the AWS Marketplace, or a private offer directly from a Red\u00a0Hat seller."
+          },
+          "aap-clouds/stories/assembly-saas-subscription-lifecycle.adoc": {
+            "title": "Red Hat Ansible Automation Platform Service on AWS subscription lifecycle",
+            "shortdesc": "When your AWS subscription for Red Hat Ansible Automation Platform Service on AWS ends, your environment follows a defined lifecycle. Understanding this timeline helps you plan subscription renewals and avoid unintended data loss."
+          },
+          "aap-clouds/stories/assembly-saas-support.adoc": {
+            "title": "Support",
+            "shortdesc": "Red Hat Ansible Automation Platform Service on AWS includes Red\u00a0Hat Premium Support, accessible through the Red Hat Customer Portal."
+          }
+        },
+        "map_content_model_errors": 10,
+        "non_map_dotj088e": [
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/assembly-saas-control-plane.dita:11:188: [DOTJ088E] XML parsing error: Attribute value \"however the diagram illustrated that each deployment is isolated by an independent and unconnected AWS infastructure.\" of type NMTOKEN must be a name token."
+        ]
+      },
+      "assembly-topics": {
+        "flags": "-ArC",
+        "conversion_exit": 0,
+        "map_count": 17,
+        "topic_count": 100,
+        "invalid_mapref_warnings": 0,
+        "invalid_mapref_maps": [],
+        "missing_map_targets": [],
+        "xml_errors": [],
+        "fatal_messages": [],
+        "missing_expected_topics": [],
+        "expected_topic_occurrences_not_one": {},
+        "converted_topics_outside_navigation": [
+          "aap-clouds/topics/con-saas-dns-resolution-requirements.dita"
+        ],
+        "job_introductions": {
+          "aap-service-aws-discover.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-intro.adoc",
+            "title": "Introduction to Red Hat Ansible Automation Platform Service on AWS",
+            "shortdesc": "With the Red Hat Ansible Automation Platform Service on AWS, you can purchase and deploy Ansible Automation Platform through AWS Marketplace.\nRed\u00a0Hat configures and provisions an Ansible Automation Platform environment and then maintains it, ensuring reliability and security.",
+            "repeated_topic_hrefs": []
+          },
+          "aap-service-aws-plan.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-service-definition.adoc",
+            "title": "Red Hat Ansible Automation Platform Service on AWS Service Definition",
+            "shortdesc": "The service definition details the shared responsibilities between Red Hat, which manages the control plane, and the customer, who manages the execution plane.",
+            "repeated_topic_hrefs": []
+          },
+          "red-hat-ansible-automation-platform-service-on-aws-pull-and-push-models.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-pull-push.adoc",
+            "title": "Red Hat Ansible Automation Platform Service on AWS PULL and PUSH models",
+            "shortdesc": "There are two communication methods, PULL and PUSH, available for connecting your execution plane nodes to the Ansible Automation Platform Service on AWS control plane.",
+            "repeated_topic_hrefs": []
+          },
+          "control-plane.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-control-plane.adoc",
+            "title": "Control plane",
+            "shortdesc": "The Ansible Automation Platform control plane includes the application UIs, APIs, components, and services used for managing automation.\nRed\u00a0Hat manages these within its own infrastructure.",
+            "repeated_topic_hrefs": []
+          },
+          "execution-plane.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-execution-plane.adoc",
+            "title": "Execution plane",
+            "shortdesc": "You can only run test and cleanup jobs on the default or controller execution planes. All other automation must be configured to run on your execution plane.",
+            "repeated_topic_hrefs": []
+          },
+          "aap-service-aws-get-started.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-post-install-config.adoc",
+            "title": "Configure Red Hat Ansible Automation Platform Service on AWS",
+            "shortdesc": "After you subscribe to Ansible Automation Platform Service on AWS and gain access to Ansible Automation Platform, you must configure your automation mesh nodes and set up your automation jobs.",
+            "repeated_topic_hrefs": []
+          },
+          "set-up-red-hat-ansible-automation-platform-service-on-aws.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-set-up.adoc",
+            "title": "Set up Red Hat Ansible Automation Platform Service on AWS",
+            "shortdesc": "To set up Red Hat Ansible Automation Platform Service on AWS you must first accept an offer. You can accept a public offer through the AWS Marketplace, or a private offer directly from a Red\u00a0Hat seller.",
+            "repeated_topic_hrefs": []
+          },
+          "account-management.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-account-management.adoc",
+            "title": "Account management",
+            "shortdesc": "This section provides an overview of the billing and environment management operations.",
+            "repeated_topic_hrefs": []
+          },
+          "support.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-support.adoc",
+            "title": "Support",
+            "shortdesc": "Red Hat Ansible Automation Platform Service on AWS includes Red\u00a0Hat Premium Support, accessible through the Red Hat Customer Portal.",
+            "repeated_topic_hrefs": []
+          },
+          "red-hat-ansible-automation-platform-service-on-aws-subscription-lifecycle.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-subscription-lifecycle.adoc",
+            "title": "Red Hat Ansible Automation Platform Service on AWS subscription lifecycle",
+            "shortdesc": "When your AWS subscription for Red Hat Ansible Automation Platform Service on AWS ends, your environment follows a defined lifecycle. Understanding this timeline helps you plan subscription renewals and avoid unintended data loss.",
+            "repeated_topic_hrefs": []
+          },
+          "red-hat-ansible-automation-platform-best-practices.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-aap-best-practices.adoc",
+            "title": "Red Hat Ansible Automation Platform best practices",
+            "shortdesc": "This section covers Ansible Automation Platform product use that has specific content or context for using Ansible Automation Platform as a service.",
+            "repeated_topic_hrefs": []
+          },
+          "aap-service-aws-configure.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-post-deloyment-configuration.adoc",
+            "title": "Post-deployment configurations for Multi-Region Active/Passive",
+            "shortdesc": "To maintain continuous automation mesh connectivity during a regional failover, configure AWS PrivateLink endpoints, route tables, and network security policies in your secondary region.",
+            "repeated_topic_hrefs": []
+          },
+          "red-hat-ansible-automation-platform-service-on-aws-private-link-connectivity.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-private-link.adoc",
+            "title": "Red Hat Ansible Automation Platform Service on AWS Private Link Connectivity",
+            "shortdesc": "Private link connectivity is a networking feature commonly used in cloud environments.\nPrivate link connectivity allows services to communicate privately over a secure, internal network without exposing traffic to the public internet.\nOn AWS, private link connectivity is known as AWS PrivateLink.",
+            "repeated_topic_hrefs": []
+          },
+          "multiregion-activepassive-infrastructure.ditamap": {
+            "source": "aap-clouds/stories/assembly-saas-business-continuity.adoc",
+            "title": "Multi-Region Active/Passive infrastructure",
+            "shortdesc": "",
+            "repeated_topic_hrefs": []
+          }
+        },
+        "build_exit": 0,
+        "dita_message_codes": {
+          "DOTJ088E": 1,
+          "DOTX008E": 6,
+          "DOTX061W": 10,
+          "DOTX023W": 10,
+          "DOTX026W": 10,
+          "DOTX031E": 14
+        },
+        "dita_error_lines": [
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/stories/assembly-saas-control-plane.dita:11:188: [DOTJ088E] XML parsing error: Attribute value \"however the diagram illustrated that each deployment is isolated by an independent and unconnected AWS infastructure.\" of type NMTOKEN must be a name token.",
+          "Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/stories/AWS_tenant_isolation.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/stories/AWS_tenant_isolation.png' exists and that you have permission to access it.",
+          "Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/automation_mesh.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/automation_mesh.png' exists and that you have permission to access it.",
+          "Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/one-zone-subnet.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/one-zone-subnet.png' exists and that you have permission to access it.",
+          "Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/many-zone-subnet.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/many-zone-subnet.png' exists and that you have permission to access it.",
+          "Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/mesh_egress.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/mesh_egress.png' exists and that you have permission to access it.",
+          "Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/mesh_ingress.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/mesh_ingress.png' exists and that you have permission to access it.",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-plan.ditamap:6:149: [DOTX031E]: The '../../Chunk1.dita#Chunk1' resource is not available to resolve link information. ",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-administer.ditamap:8:151: [DOTX031E]: The '../../Chunk1.dita#Chunk1' resource is not available to resolve link information. ",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-plan.ditamap:9:93: [DOTX031E]: The '../../Chunk1.dita#Chunk1' resource is not available to resolve link information. ",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-administer.ditamap:7:85: [DOTX031E]: The '../../Chunk2.dita#Chunk1' resource is not available to resolve link information. ",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-administer.ditamap:6:96: [DOTX031E]: The '../../Chunk1.dita#Chunk1' resource is not available to resolve link information. ",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-administer.ditamap:9:128: [DOTX031E]: The '../../Chunk2.dita#Chunk1' resource is not available to resolve link information. ",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-configure.ditamap:7:154: [DOTX031E]: The '../../Chunk1.dita#Chunk1' resource is not available to resolve link information. ",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-optimize.ditamap:6:118: [DOTX031E]: The '../../Chunk2.dita#Chunk1' resource is not available to resolve link information. ",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/proc-saas-standard-ingress-configuration.dita:5:154: [DOTX031E]: The '../topics/proc-saas-standard-ingress-configuration.dita#ref-saas-network-dns-routing' resource is not available to resolve link information. ",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/proc-saas-standard-ingress-configuration.dita:5:154: [DOTX031E]: The '../topics/proc-saas-standard-ingress-configuration.dita#ref-saas-network-dns-routing' resource is not available to resolve link information. ",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/ref-saas-network-dns-routing.dita:9:498: [DOTX031E]: The '../topics/ref-saas-network-dns-routing.dita#proc-saas-standard-ingress-configuration' resource is not available to resolve link information. ",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-plan.ditamap:8:91: [DOTX031E]: The '../../Chunk2.dita#Chunk1' resource is not available to resolve link information. ",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/ref-saas-exe-plane-strategy.dita:10:74: [DOTX031E]: The '../topics/ref-saas-exe-plane-strategy.dita#ref-saas-infrastructure-metering' resource is not available to resolve link information. ",
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-get-started.ditamap:6:135: [DOTX031E]: The '../../Chunk2.dita#Chunk1' resource is not available to resolve link information. "
+        ],
+        "all_assembly_introductions": {
+          "aap-clouds/stories/assembly-saas-aap-best-practices.adoc": {
+            "title": "Red Hat Ansible Automation Platform best practices",
+            "shortdesc": "This section covers Ansible Automation Platform product use that has specific content or context for using Ansible Automation Platform as a service."
+          },
+          "aap-clouds/stories/assembly-saas-account-management.adoc": {
+            "title": "Account management",
+            "shortdesc": "This section provides an overview of the billing and environment management operations."
+          },
+          "aap-clouds/stories/assembly-saas-business-continuity.adoc": {
+            "title": "Multi-Region Active/Passive infrastructure",
+            "shortdesc": ""
+          },
+          "aap-clouds/stories/assembly-saas-control-plane.adoc": {
+            "title": "Control plane",
+            "shortdesc": "The Ansible Automation Platform control plane includes the application UIs, APIs, components, and services used for managing automation.\nRed\u00a0Hat manages these within its own infrastructure."
+          },
+          "aap-clouds/stories/assembly-saas-execution-plane.adoc": {
+            "title": "Execution plane",
+            "shortdesc": "You can only run test and cleanup jobs on the default or controller execution planes. All other automation must be configured to run on your execution plane."
+          },
+          "aap-clouds/stories/assembly-saas-intro.adoc": {
+            "title": "Introduction to Red Hat Ansible Automation Platform Service on AWS",
+            "shortdesc": "With the Red Hat Ansible Automation Platform Service on AWS, you can purchase and deploy Ansible Automation Platform through AWS Marketplace.\nRed\u00a0Hat configures and provisions an Ansible Automation Platform environment and then maintains it, ensuring reliability and security."
+          },
+          "aap-clouds/stories/assembly-saas-post-deloyment-configuration.adoc": {
+            "title": "Post-deployment configurations for Multi-Region Active/Passive",
+            "shortdesc": "To maintain continuous automation mesh connectivity during a regional failover, configure AWS PrivateLink endpoints, route tables, and network security policies in your secondary region."
+          },
+          "aap-clouds/stories/assembly-saas-post-install-config.adoc": {
+            "title": "Configure Red Hat Ansible Automation Platform Service on AWS",
+            "shortdesc": "After you subscribe to Ansible Automation Platform Service on AWS and gain access to Ansible Automation Platform, you must configure your automation mesh nodes and set up your automation jobs."
+          },
+          "aap-clouds/stories/assembly-saas-private-link.adoc": {
+            "title": "Red Hat Ansible Automation Platform Service on AWS Private Link Connectivity",
+            "shortdesc": "Private link connectivity is a networking feature commonly used in cloud environments.\nPrivate link connectivity allows services to communicate privately over a secure, internal network without exposing traffic to the public internet.\nOn AWS, private link connectivity is known as AWS PrivateLink."
+          },
+          "aap-clouds/stories/assembly-saas-pull-push.adoc": {
+            "title": "Red Hat Ansible Automation Platform Service on AWS PULL and PUSH models",
+            "shortdesc": "There are two communication methods, PULL and PUSH, available for connecting your execution plane nodes to the Ansible Automation Platform Service on AWS control plane."
+          },
+          "aap-clouds/stories/assembly-saas-service-definition.adoc": {
+            "title": "Red Hat Ansible Automation Platform Service on AWS Service Definition",
+            "shortdesc": "The service definition details the shared responsibilities between Red Hat, which manages the control plane, and the customer, who manages the execution plane."
+          },
+          "aap-clouds/stories/assembly-saas-set-up.adoc": {
+            "title": "Set up Red Hat Ansible Automation Platform Service on AWS",
+            "shortdesc": "To set up Red Hat Ansible Automation Platform Service on AWS you must first accept an offer. You can accept a public offer through the AWS Marketplace, or a private offer directly from a Red\u00a0Hat seller."
+          },
+          "aap-clouds/stories/assembly-saas-subscription-lifecycle.adoc": {
+            "title": "Red Hat Ansible Automation Platform Service on AWS subscription lifecycle",
+            "shortdesc": "When your AWS subscription for Red Hat Ansible Automation Platform Service on AWS ends, your environment follows a defined lifecycle. Understanding this timeline helps you plan subscription renewals and avoid unintended data loss."
+          },
+          "aap-clouds/stories/assembly-saas-support.adoc": {
+            "title": "Support",
+            "shortdesc": "Red Hat Ansible Automation Platform Service on AWS includes Red\u00a0Hat Premium Support, accessible through the Red Hat Customer Portal."
+          }
+        },
+        "map_content_model_errors": 0,
+        "non_map_dotj088e": [
+          "Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/stories/assembly-saas-control-plane.dita:11:188: [DOTJ088E] XML parsing error: Attribute value \"however the diagram illustrated that each deployment is isolated by an independent and unconnected AWS infastructure.\" of type NMTOKEN must be a name token."
+        ]
+      }
+    },
+    "original_inputs_unchanged": true
+  },
+  "resources_and_link_cleanup": {
+    "resources": {
+      "section-heading": {
+        "related_links": 1,
+        "related_link_destinations": [
+          "https://example.com"
+        ],
+        "body_link_destinations": []
+      },
+      "role-block": {
+        "related_links": 1,
+        "related_link_destinations": [
+          "https://example.com"
+        ],
+        "body_link_destinations": []
+      },
+      "section-heading-reference": {
+        "related_links": 0,
+        "related_link_destinations": [],
+        "body_link_destinations": [
+          "https://example.com"
+        ]
+      },
+      "role-block-reference": {
+        "related_links": 1,
+        "related_link_destinations": [
+          "https://example.com"
+        ],
+        "body_link_destinations": []
+      }
+    },
+    "xrefs_before_cleanup": {
+      "proc-saas-standard-ingress-configuration": [
+        "#ref-saas-network-dns-routing"
+      ],
+      "ref-saas-exe-plane-strategy": [
+        "#ref-saas-infrastructure-metering"
+      ],
+      "ref-saas-network-dns-routing": [
+        "#proc-saas-standard-ingress-configuration"
+      ],
+      "ref-saas-infrastructure-metering": []
+    },
+    "xrefs_after_cleanup": {
+      "proc-saas-standard-ingress-configuration": [
+        "ref-saas-network-dns-routing.dita#ref-saas-network-dns-routing"
+      ],
+      "ref-saas-exe-plane-strategy": [
+        "ref-saas-infrastructure-metering.dita#ref-saas-infrastructure-metering"
+      ],
+      "ref-saas-network-dns-routing": [
+        "proc-saas-standard-ingress-configuration.dita#proc-saas-standard-ingress-configuration"
+      ],
+      "ref-saas-infrastructure-metering": []
+    },
+    "rendered_internal_links": [
+      {
+        "source": "proc-saas-standard-ingress-configuration.html",
+        "href": "ref-saas-network-dns-routing.html#ref-saas-network-dns-routing",
+        "destination_and_anchor_exist": true
+      },
+      {
+        "source": "ref-saas-exe-plane-strategy.html",
+        "href": "ref-saas-infrastructure-metering.html#ref-saas-infrastructure-metering",
+        "destination_and_anchor_exist": true
+      },
+      {
+        "source": "ref-saas-network-dns-routing.html",
+        "href": "proc-saas-standard-ingress-configuration.html#proc-saas-standard-ingress-configuration",
+        "destination_and_anchor_exist": true
+      }
+    ]
+  },
+  "organized_output": {
+    "scope": "Disposable existing -A DITA; no source reconversion or product changes",
+    "commands": [
+      [
+        "bash",
+        "/private/tmp/aws-engineer-verification-20261106-v2/rename-core.sh"
+      ],
+      [
+        "podman",
+        "machine",
+        "start"
+      ],
+      [
+        "podman",
+        "run",
+        "--rm",
+        "-v",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized:/docs",
+        "quay.io/jhradilek/asciidoc-to-dita:latest",
+        "sh",
+        "-c",
+        "find /docs \\( -name \"*.dita\" -o -name \"*.ditamap\" \\) | xargs dita-cleanup --prune-ids"
+      ],
+      [
+        "podman",
+        "run",
+        "--rm",
+        "-v",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized:/docs",
+        "quay.io/jhradilek/asciidoc-to-dita:latest",
+        "sh",
+        "-c",
+        "find /docs -name \"*.dita\" | xargs dita-cleanup --prune-xrefs"
+      ],
+      [
+        "python3",
+        "/Users/michellemac/repos/my-utilities/aem-migration/fix_link_hrefs.py",
+        "--dita-root",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized"
+      ],
+      [
+        "podman",
+        "run",
+        "--rm",
+        "-v",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized:/docs",
+        "quay.io/jhradilek/asciidoc-to-dita:latest",
+        "sh",
+        "-c",
+        "find /docs -name \"*.dita\" | xargs dita-cleanup -D images/"
+      ],
+      [
+        "podman",
+        "run",
+        "--rm",
+        "-v",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized:/docs",
+        "quay.io/jhradilek/asciidoc-to-dita:latest",
+        "sh",
+        "-c",
+        "cd /docs && find . -name \"*.dita\" | xargs dita-cleanup --xref-dir ."
+      ],
+      [
+        "python3",
+        "/Users/michellemac/repos/my-utilities/aem-migration/restore_xref_targets.py",
+        "--dita-root",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized",
+        "--log",
+        "/private/tmp/aws-engineer-verification-20261106-v2/xrefs.log"
+      ],
+      [
+        "python3",
+        "/Users/michellemac/repos/my-utilities/aem-migration/fix_ditamap_hrefs.py",
+        "--mode",
+        "cross-reference",
+        "--strict",
+        "--ditamap",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized/aap-service-aws-navigation.ditamap",
+        "--dita-root",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized"
+      ],
+      [
+        "python3",
+        "/Users/michellemac/repos/my-utilities/aem-migration/fix_ditamap_hrefs.py",
+        "--mode",
+        "cross-reference",
+        "--strict",
+        "--ditamap",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized/discover/aap-service-aws-discover.ditamap",
+        "--dita-root",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized"
+      ],
+      [
+        "python3",
+        "/Users/michellemac/repos/my-utilities/aem-migration/fix_ditamap_hrefs.py",
+        "--mode",
+        "cross-reference",
+        "--strict",
+        "--ditamap",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized/optimize/multiregion-activepassive-infrastructure.ditamap",
+        "--dita-root",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized"
+      ],
+      [
+        "python3",
+        "/Users/michellemac/repos/my-utilities/aem-migration/fix_ditamap_hrefs.py",
+        "--mode",
+        "cross-reference",
+        "--strict",
+        "--ditamap",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized/optimize/aap-service-aws-optimize.ditamap",
+        "--dita-root",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized"
+      ],
+      [
+        "python3",
+        "/Users/michellemac/repos/my-utilities/aem-migration/fix_ditamap_hrefs.py",
+        "--mode",
+        "cross-reference",
+        "--strict",
+        "--ditamap",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized/configure/red-hat-ansible-automation-platform-service-on-aws-private-link-connectivity.ditamap",
+        "--dita-root",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized"
+      ],
+      [
+        "python3",
+        "/Users/michellemac/repos/my-utilities/aem-migration/fix_ditamap_hrefs.py",
+        "--mode",
+        "cross-reference",
+        "--strict",
+        "--ditamap",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized/configure/aap-service-aws-configure.ditamap",
+        "--dita-root",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized"
+      ],
+      [
+        "python3",
+        "/Users/michellemac/repos/my-utilities/aem-migration/fix_ditamap_hrefs.py",
+        "--mode",
+        "cross-reference",
+        "--strict",
+        "--ditamap",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized/plan/red-hat-ansible-automation-platform-service-on-aws-pull-and-push-models.ditamap",
+        "--dita-root",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized"
+      ],
+      [
+        "python3",
+        "/Users/michellemac/repos/my-utilities/aem-migration/fix_ditamap_hrefs.py",
+        "--mode",
+        "cross-reference",
+        "--strict",
+        "--ditamap",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized/plan/aap-service-aws-plan.ditamap",
+        "--dita-root",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized"
+      ],
+      [
+        "python3",
+        "/Users/michellemac/repos/my-utilities/aem-migration/fix_ditamap_hrefs.py",
+        "--mode",
+        "cross-reference",
+        "--strict",
+        "--ditamap",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized/plan/control-plane.ditamap",
+        "--dita-root",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized"
+      ],
+      [
+        "python3",
+        "/Users/michellemac/repos/my-utilities/aem-migration/fix_ditamap_hrefs.py",
+        "--mode",
+        "cross-reference",
+        "--strict",
+        "--ditamap",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized/plan/execution-plane.ditamap",
+        "--dita-root",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized"
+      ],
+      [
+        "python3",
+        "/Users/michellemac/repos/my-utilities/aem-migration/fix_ditamap_hrefs.py",
+        "--mode",
+        "cross-reference",
+        "--strict",
+        "--ditamap",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized/administer/red-hat-ansible-automation-platform-best-practices.ditamap",
+        "--dita-root",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized"
+      ],
+      [
+        "python3",
+        "/Users/michellemac/repos/my-utilities/aem-migration/fix_ditamap_hrefs.py",
+        "--mode",
+        "cross-reference",
+        "--strict",
+        "--ditamap",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized/administer/red-hat-ansible-automation-platform-service-on-aws-subscription-lifecycle.ditamap",
+        "--dita-root",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized"
+      ],
+      [
+        "python3",
+        "/Users/michellemac/repos/my-utilities/aem-migration/fix_ditamap_hrefs.py",
+        "--mode",
+        "cross-reference",
+        "--strict",
+        "--ditamap",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized/administer/aap-service-aws-administer.ditamap",
+        "--dita-root",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized"
+      ],
+      [
+        "python3",
+        "/Users/michellemac/repos/my-utilities/aem-migration/fix_ditamap_hrefs.py",
+        "--mode",
+        "cross-reference",
+        "--strict",
+        "--ditamap",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized/administer/account-management.ditamap",
+        "--dita-root",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized"
+      ],
+      [
+        "python3",
+        "/Users/michellemac/repos/my-utilities/aem-migration/fix_ditamap_hrefs.py",
+        "--mode",
+        "cross-reference",
+        "--strict",
+        "--ditamap",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized/administer/support.ditamap",
+        "--dita-root",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized"
+      ],
+      [
+        "python3",
+        "/Users/michellemac/repos/my-utilities/aem-migration/fix_ditamap_hrefs.py",
+        "--mode",
+        "cross-reference",
+        "--strict",
+        "--ditamap",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized/get-started/aap-service-aws-get-started.ditamap",
+        "--dita-root",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized"
+      ],
+      [
+        "python3",
+        "/Users/michellemac/repos/my-utilities/aem-migration/fix_ditamap_hrefs.py",
+        "--mode",
+        "cross-reference",
+        "--strict",
+        "--ditamap",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized/get-started/set-up-red-hat-ansible-automation-platform-service-on-aws.ditamap",
+        "--dita-root",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized"
+      ],
+      [
+        "dita",
+        "-i",
+        "/private/tmp/aws-engineer-verification-20261106-v2/organized/aap-service-aws-navigation.ditamap",
+        "-f",
+        "xhtml",
+        "-o",
+        "/private/tmp/aws-engineer-verification-20261106-v2/cleaned-html",
+        "-t",
+        "/private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp"
+      ],
+      [
+        "dita",
+        "-i",
+        "/private/tmp/aws-engineer-verification-20261106-v2/no-mapref-chunk/aap-service-aws-navigation.ditamap",
+        "-f",
+        "xhtml",
+        "-o",
+        "/private/tmp/aws-engineer-verification-20261106-v2/no-mapref-chunk-html",
+        "-t",
+        "/private/tmp/aws-engineer-verification-20261106-v2/no-mapref-chunk-temp"
+      ]
+    ],
+    "counts": {
+      "maps": 17,
+      "topics": 100
+    },
+    "rename": {
+      "old": "con-saas-networking-with-overlapping-CIDR-blocks.dita",
+      "new": "con-saas-networking-with-overlapping-cidr-blocks.dita",
+      "old_references_remaining": 0,
+      "new_references": 1,
+      "source_unchanged": "No product source was modified; original converted input also preserved."
+    },
+    "images": {
+      "assets": [
+        "AWS_tenant_isolation.png",
+        "automation_mesh.png",
+        "many-zone-subnet.png",
+        "mesh_egress.png",
+        "mesh_ingress.png",
+        "one-zone-subnet.png"
+      ]
+    },
+    "test_only_macro_isolation": {
+      "file": "plan/assembly-saas-control-plane.dita",
+      "removed_invalid_width": "however the diagram illustrated that each deployment is isolated by an independent and unconnected AWS infastructure."
+    },
+    "cleaned": {
+      "Failed to move chunk": 8,
+      "DOTX031E": 10,
+      "DOTX026W": 10,
+      "DOTX008E": 0,
+      "DOTJ088E": 0
+    },
+    "removed_mapref_chunks": [
+      {
+        "map": "optimize/aap-service-aws-optimize.ditamap",
+        "href": "multiregion-activepassive-infrastructure.ditamap",
+        "chunk": "to-content"
+      },
+      {
+        "map": "configure/aap-service-aws-configure.ditamap",
+        "href": "red-hat-ansible-automation-platform-service-on-aws-private-link-connectivity.ditamap",
+        "chunk": "to-content"
+      },
+      {
+        "map": "plan/aap-service-aws-plan.ditamap",
+        "href": "red-hat-ansible-automation-platform-service-on-aws-pull-and-push-models.ditamap",
+        "chunk": "to-content"
+      },
+      {
+        "map": "plan/aap-service-aws-plan.ditamap",
+        "href": "control-plane.ditamap",
+        "chunk": "to-content"
+      },
+      {
+        "map": "plan/aap-service-aws-plan.ditamap",
+        "href": "execution-plane.ditamap",
+        "chunk": "to-content"
+      },
+      {
+        "map": "administer/aap-service-aws-administer.ditamap",
+        "href": "account-management.ditamap",
+        "chunk": "to-content"
+      },
+      {
+        "map": "administer/aap-service-aws-administer.ditamap",
+        "href": "support.ditamap",
+        "chunk": "to-content"
+      },
+      {
+        "map": "administer/aap-service-aws-administer.ditamap",
+        "href": "red-hat-ansible-automation-platform-service-on-aws-subscription-lifecycle.ditamap",
+        "chunk": "to-content"
+      },
+      {
+        "map": "administer/aap-service-aws-administer.ditamap",
+        "href": "red-hat-ansible-automation-platform-best-practices.ditamap",
+        "chunk": "to-content"
+      },
+      {
+        "map": "get-started/aap-service-aws-get-started.ditamap",
+        "href": "set-up-red-hat-ansible-automation-platform-service-on-aws.ditamap",
+        "chunk": "to-content"
+      }
+    ],
+    "no-mapref-chunk": {
+      "Failed to move chunk": 0,
+      "DOTX031E": 0,
+      "DOTX026W": 0,
+      "DOTX008E": 0,
+      "DOTJ088E": 0
+    },
+    "rendered_validation": {
+      "html_files": 15,
+      "local_link_and_image_references_checked": 194,
+      "broken_files_or_anchors": [],
+      "rendered_images": 6,
+      "reachable_topics": 99,
+      "chunks": [
+        {
+          "map": "plan/red-hat-ansible-automation-platform-service-on-aws-pull-and-push-models.ditamap",
+          "page": "plan/assembly-saas-pull-push.html",
+          "topic_count": 4,
+          "all_topic_ids_present": true
+        },
+        {
+          "map": "plan/control-plane.ditamap",
+          "page": "plan/assembly-saas-control-plane.html",
+          "topic_count": 23,
+          "all_topic_ids_present": true
+        },
+        {
+          "map": "plan/execution-plane.ditamap",
+          "page": "plan/assembly-saas-execution-plane.html",
+          "topic_count": 10,
+          "all_topic_ids_present": true
+        },
+        {
+          "map": "get-started/set-up-red-hat-ansible-automation-platform-service-on-aws.ditamap",
+          "page": "get-started/assembly-saas-set-up.html",
+          "topic_count": 4,
+          "all_topic_ids_present": true
+        },
+        {
+          "map": "administer/account-management.ditamap",
+          "page": "administer/assembly-saas-account-management.html",
+          "topic_count": 7,
+          "all_topic_ids_present": true
+        },
+        {
+          "map": "administer/support.ditamap",
+          "page": "administer/assembly-saas-support.html",
+          "topic_count": 3,
+          "all_topic_ids_present": true
+        },
+        {
+          "map": "administer/red-hat-ansible-automation-platform-service-on-aws-subscription-lifecycle.ditamap",
+          "page": "administer/assembly-saas-subscription-lifecycle.html",
+          "topic_count": 6,
+          "all_topic_ids_present": true
+        },
+        {
+          "map": "administer/red-hat-ansible-automation-platform-best-practices.ditamap",
+          "page": "administer/assembly-saas-aap-best-practices.html",
+          "topic_count": 3,
+          "all_topic_ids_present": true
+        },
+        {
+          "map": "configure/red-hat-ansible-automation-platform-service-on-aws-private-link-connectivity.ditamap",
+          "page": "configure/assembly-saas-private-link.html",
+          "topic_count": 11,
+          "all_topic_ids_present": true
+        },
+        {
+          "map": "optimize/multiregion-activepassive-infrastructure.ditamap",
+          "page": "optimize/assembly-saas-business-continuity.html",
+          "topic_count": 24,
+          "all_topic_ids_present": true
+        }
+      ],
+      "only_map_change": "Removed chunk attributes from mapref; topicref hierarchy and attributes unchanged",
+      "all_topic_bytes_unchanged_between_variants": true
+    }
+  },
+  "source_fixes": {
+    "scope": "Focused AsciiDoc alternatives on disposable copies; no full conversion or precheck rerun",
+    "commands": [
+      [
+        "podman",
+        "machine",
+        "start"
+      ],
+      [
+        "podman",
+        "run",
+        "--rm",
+        "-v",
+        "/private/tmp/aws-source-first-verification-20261106/source-links:/docs",
+        "quay.io/jhradilek/asciidoc-to-dita:latest",
+        "convert",
+        "-AC",
+        "-p",
+        "attributes.adoc",
+        "."
+      ],
+      [
+        "podman",
+        "run",
+        "--rm",
+        "-v",
+        "/private/tmp/aws-source-first-verification-20261106/map-source:/docs",
+        "quay.io/jhradilek/asciidoc-to-dita:latest",
+        "convert",
+        "-AC",
+        "-p",
+        "attributes.adoc",
+        "aap-service-aws-optimize.adoc"
+      ],
+      [
+        "podman",
+        "run",
+        "--rm",
+        "-v",
+        "/private/tmp/aws-source-first-verification-20261106/map-source:/docs",
+        "quay.io/jhradilek/asciidoc-to-dita:latest",
+        "convert",
+        "-AC",
+        "-p",
+        "attributes.adoc",
+        "aap-service-aws-get-started.adoc"
+      ],
+      [
+        "podman",
+        "run",
+        "--rm",
+        "-v",
+        "/private/tmp/aws-source-first-verification-20261106/map-source:/docs",
+        "quay.io/jhradilek/asciidoc-to-dita:latest",
+        "convert",
+        "-AC",
+        "-p",
+        "attributes.adoc",
+        "aap-service-aws-administer.adoc"
+      ],
+      [
+        "podman",
+        "run",
+        "--rm",
+        "-v",
+        "/private/tmp/aws-source-first-verification-20261106/map-source:/docs",
+        "quay.io/jhradilek/asciidoc-to-dita:latest",
+        "convert",
+        "-AC",
+        "-p",
+        "attributes.adoc",
+        "aap-service-aws-configure.adoc"
+      ],
+      [
+        "podman",
+        "run",
+        "--rm",
+        "-v",
+        "/private/tmp/aws-source-first-verification-20261106/map-source:/docs",
+        "quay.io/jhradilek/asciidoc-to-dita:latest",
+        "convert",
+        "-AC",
+        "-p",
+        "attributes.adoc",
+        "aap-service-aws-plan.adoc"
+      ],
+      [
+        "podman",
+        "run",
+        "--rm",
+        "-v",
+        "/private/tmp/aws-source-first-verification-20261106/source-rename:/docs",
+        "quay.io/jhradilek/asciidoc-to-dita:latest",
+        "convert",
+        "-AC",
+        "-p",
+        "attributes.adoc",
+        "con-saas-networking-with-overlapping-cidr-blocks.adoc"
+      ],
+      [
+        "dita",
+        "-i",
+        "/private/tmp/aws-source-first-verification-20261106/source-links/test.ditamap",
+        "-f",
+        "xhtml",
+        "-o",
+        "/private/tmp/aws-source-first-verification-20261106/links-html",
+        "-t",
+        "/private/tmp/aws-source-first-verification-20261106/links-temp"
+      ],
+      [
+        "podman",
+        "machine",
+        "start"
+      ],
+      [
+        "podman",
+        "run",
+        "--rm",
+        "-v",
+        "/private/tmp/aws-source-first-verification-20261106/source-links:/docs",
+        "quay.io/jhradilek/asciidoc-to-dita:latest",
+        "asciidoctor",
+        "-o",
+        "/docs/book.html",
+        "/docs/book.adoc"
+      ]
+    ],
+    "explicit_source_links": {
+      "changes": [
+        {
+          "source": "proc-saas-standard-ingress-configuration.adoc",
+          "old": "xref:ref-saas-network-dns-routing[",
+          "new": "xref:ref-saas-network-dns-routing.adoc#ref-saas-network-dns-routing["
+        },
+        {
+          "source": "ref-saas-network-dns-routing.adoc",
+          "old": "xref:proc-saas-standard-ingress-configuration[",
+          "new": "xref:proc-saas-standard-ingress-configuration.adoc#proc-saas-standard-ingress-configuration["
+        },
+        {
+          "source": "ref-saas-exe-plane-strategy.adoc",
+          "old": "xref:ref-saas-infrastructure-metering[",
+          "new": "xref:ref-saas-infrastructure-metering.adoc#ref-saas-infrastructure-metering["
+        }
+      ],
+      "raw_generated_links": [
+        {
+          "source": "ref-saas-exe-plane-strategy.dita",
+          "href": "ref-saas-infrastructure-metering.dita#ref-saas-infrastructure-metering",
+          "file_and_id_resolve_without_cleanup": true
+        },
+        {
+          "source": "ref-saas-network-dns-routing.dita",
+          "href": "proc-saas-standard-ingress-configuration.dita#proc-saas-standard-ingress-configuration",
+          "file_and_id_resolve_without_cleanup": true
+        },
+        {
+          "source": "proc-saas-standard-ingress-configuration.dita",
+          "href": "ref-saas-network-dns-routing.dita#ref-saas-network-dns-routing",
+          "file_and_id_resolve_without_cleanup": true
+        }
+      ],
+      "cleanup_used": false,
+      "rendered_three_links_and_anchors_verified": true,
+      "assembled_asciidoc_link_compatibility": "All three file-and-ID source links resolve to in-book anchors in a focused four-topic AsciiDoc assembly."
+    },
+    "source_chunking": {
+      "edits": [
+        {
+          "source": "aap-service-aws-optimize.adoc",
+          "chunk_options_removed": 1
+        },
+        {
+          "source": "aap-service-aws-get-started.adoc",
+          "chunk_options_removed": 1
+        },
+        {
+          "source": "aap-service-aws-administer.adoc",
+          "chunk_options_removed": 4
+        },
+        {
+          "source": "aap-service-aws-configure.adoc",
+          "chunk_options_removed": 1
+        },
+        {
+          "source": "aap-service-aws-plan.adoc",
+          "chunk_options_removed": 3
+        }
+      ],
+      "job_sources_unchanged": true,
+      "result": "No mapref chunk attributes in the five generated category maps; no recursive conversion.",
+      "equivalence": "All five source-corrected category maps exactly match the accepted -A output with only mapref chunk attributes removed (canonical XML comparison)."
+    },
+    "source_rename": {
+      "source_old": "con-saas-networking-with-overlapping-CIDR-blocks.adoc",
+      "source_new": "con-saas-networking-with-overlapping-cidr-blocks.adoc",
+      "generated": "con-saas-networking-with-overlapping-cidr-blocks.dita",
+      "id_preserved": "con-saas-networking-with-overlapping-CIDR-blocks"
+    }
+  },
+  "retained_input_sha256": {
+    "aap-service-aws-administer.adoc": "baa47714e9be1f9e9f53f32cb99e132bf6400037e82cd2b8c3d1e8515433a63b",
+    "aap-service-aws-attributes.adoc": "f12b52f60efcee89e740f4d32811e42f7d7355003ed1f7b6d3973d29f83439d7",
+    "aap-service-aws-configure.adoc": "f73a2214acd84c77f419d5616a4eb1ba5597bfe458839f50d3bf359d6d468bfc",
+    "aap-service-aws-discover.adoc": "873c4f09f91af04c766f4acd3d4d6fcc788a92ccc9a15a51c841b8a8af38ff37",
+    "aap-service-aws-get-started.adoc": "c84281aa8da4065dbfe6a25732d7b0ff8f659ae47f8589de61499b44d1284a3b",
+    "aap-service-aws-navigation.adoc": "4f00b7d171e0fa63936a4ec1c529f5cb7c00faf69761100e648cdb7e3ae48cce",
+    "aap-service-aws-optimize.adoc": "378c58782632cb1fb572c72f99ae4da8e70a18258182f22d101861a75025548c",
+    "aap-service-aws-plan.adoc": "1847608ddd6e90df68e48c035d30dc286d487dd87c8a8bd68b5a795884d875f3",
+    "account-management.adoc": "adfae8e73d7dc4e8fcc86a30489093d480561078f72ed6a2c84b3fd2eeeea3eb",
+    "control-plane.adoc": "7356f1f8d8ed112a875daaa9b14b259a9708d1684d86a8903b8bb50680f20020",
+    "execution-plane.adoc": "7ac7d7cde8ca4920c29bf3864bc7c48ff2f4309ed2ed5d3a4d98a9aee689d256",
+    "multiregion-activepassive-infrastructure.adoc": "2d98b1ba91983d2b5881b8cb6e208d03591e0d2fb585f31b3331f609ad1341d1",
+    "red-hat-ansible-automation-platform-best-practices.adoc": "8562c4476a231e4b4e248d3b86176f027e34769631eca480cdaf603b1b85ad39",
+    "red-hat-ansible-automation-platform-service-on-aws-private-link-connectivity.adoc": "976b589e468f277850e8382a775dca0c0f8779050103f33211c181a9b472d0d0",
+    "red-hat-ansible-automation-platform-service-on-aws-pull-and-push-models.adoc": "0f5685b5661da039d601359d06948ac128bcb5624196e611711b286c83817dd1",
+    "red-hat-ansible-automation-platform-service-on-aws-subscription-lifecycle.adoc": "5bbab49bd21442898fa4635be1360c85477cbf2936c15211119d189d6bbf4ac6",
+    "set-up-red-hat-ansible-automation-platform-service-on-aws.adoc": "9d1e660004642bab5fa76470e09fedf548e4fbe5f940d1e38846ffe9c83726d4",
+    "support.adoc": "ce32038099e971916540698511ce1619dc9fdfac23737c1b1864a5b687b60208"
+  },
+  "selected_source_sha256": {
+    "aap-clouds/stories/assembly-saas-aap-best-practices.adoc": "45f6ab58e4ba7fe83c1819cb62fb089f33470edd60d97e88ba3789aed1c7e5bc",
+    "aap-clouds/stories/assembly-saas-account-management.adoc": "92df9d956738dd6677fc908b166426a93f55bc85ae5aa446469adc7c546b17f4",
+    "aap-clouds/stories/assembly-saas-business-continuity.adoc": "46bc6f76feddc14cf7fe781af15c8002846f9d25d4360d1aa83f2a219b35345c",
+    "aap-clouds/stories/assembly-saas-control-plane.adoc": "4105f670bed94ee0219748a5b0ad0f22fa9ae4cd258a66ff13a2c4f51f31673d",
+    "aap-clouds/stories/assembly-saas-execution-plane.adoc": "1e6852cf9d3fda8e7d633f41f6b95ad06bede8ceb78e50d2026c14cdf05896ca",
+    "aap-clouds/stories/assembly-saas-intro.adoc": "969e170b1526203ebd658addf6b1a98a840bcddd71ecb94dfc0e67c3cb8e2e24",
+    "aap-clouds/stories/assembly-saas-post-deloyment-configuration.adoc": "72aa75dec91a37dfc0673d4eef27102368951c64afefd49b18b64aaea6c55bc3",
+    "aap-clouds/stories/assembly-saas-post-install-config.adoc": "976654f7b1dd83a6ec5617aaaf0df520ea131f4a6fe586c76e103a22f0ff4722",
+    "aap-clouds/stories/assembly-saas-private-link.adoc": "6c06bd1ff0b537f15ce7fb6c7dca74a6bbdd9b9808ab7dea5f5806d78fad5cf8",
+    "aap-clouds/stories/assembly-saas-pull-push.adoc": "612c82bb5ed06bca9eb6f9b88376bb93e857e750aa72be43c8982a7ff132e205",
+    "aap-clouds/stories/assembly-saas-service-definition.adoc": "59056c44949a81732a6275a19d8988330628217cc30bb16c412b10d5453bcd54",
+    "aap-clouds/stories/assembly-saas-set-up.adoc": "30b977ccd0fadbd5afe2ca7e7478b77efc8121f06f89a5aaa02fef3b6982769d",
+    "aap-clouds/stories/assembly-saas-subscription-lifecycle.adoc": "7f0c29e0bd3c00ae711d7c9999ef3b869ad106665bcb0667cba2337f4d5ecc30",
+    "aap-clouds/stories/assembly-saas-support.adoc": "2a1a54068d3acda177fd24ba11925e0aa870c5141f833728b5247bdb6810ea41",
+    "aap-clouds/topics/con-aap-notification-feed.adoc": "30ed0675b869adca8aabb7395faaa4209a8fb74160a064a796c9e5d57a715a5a",
+    "aap-clouds/topics/con-saas-application-monitoring-and-customer-audits.adoc": "cd16b77bbc6f514924f4eb3d9bcb08ce43773fe8f922baedb22641f3791d6d8b",
+    "aap-clouds/topics/con-saas-automation-for-instance-groups.adoc": "3f1b6a44cdd08f61941a423979fe230d184d53985f8417819e4cc587a62f76ef",
+    "aap-clouds/topics/con-saas-automation-mesh.adoc": "01565c8f99f47ef046e3476302b5a8dfec865503b95ff849b4f74223cedae034",
+    "aap-clouds/topics/con-saas-automation.adoc": "d0e860d0dcba40604d6edebd3debd5683fd0f7183c0520a400a1c1b685af79b3",
+    "aap-clouds/topics/con-saas-aws-vs-redhat-subscription.adoc": "665632f6b7228e3aee5449322b786e3bef7270fddd1a3437912321325dbc6054",
+    "aap-clouds/topics/con-saas-backup-and-disaster-recovery.adoc": "35cf87dacddb06dad304ef4ad8ce0ae2351f4b35c2bfc460b78b06b58146d560",
+    "aap-clouds/topics/con-saas-billing.adoc": "80b204eb232bab5328001c4ccc6a1809bb321905dfc81ab39d30e89890df50df",
+    "aap-clouds/topics/con-saas-config-aws-privatelink.adoc": "298fe61596f6dd3f914c7abfd125ed974ebf257673534ef09b804b5d088b6bf9",
+    "aap-clouds/topics/con-saas-connectivity.adoc": "3396eae070eadf9e579213c4466270b212a421a672da584bb9898da5e422cd93",
+    "aap-clouds/topics/con-saas-contract-end-trigger.adoc": "e8b625906b9e18b1e844e9a00ea182f3d81692e699823056709de2ba76b1db09",
+    "aap-clouds/topics/con-saas-custom-domain.adoc": "abd8a87ba9f782cccd99ac86717e46ce6e8d5c216ae78da7fb3d012ba6e2dcce",
+    "aap-clouds/topics/con-saas-customer-access.adoc": "9fa081b9d47c4e5e69645c9e8690fa1c317c5ce62952ebd60aa870d9e5463f90",
+    "aap-clouds/topics/con-saas-deployment-self-service.adoc": "cabf8936af16514cdcb391e4d2ca99947f0b7a814cf7375d2de893133f9dd833",
+    "aap-clouds/topics/con-saas-dns.adoc": "957592c80fdff180eb9f2b66afb449f100587bd6a8493b5da820ab3aca322821",
+    "aap-clouds/topics/con-saas-encryption.adoc": "80bb8b5772ff4325750ec34a9909d45cadeed4d63e98d654f0c3c53485ff05d1",
+    "aap-clouds/topics/con-saas-hosted-components.adoc": "24b1fc65e385716888b8798e2f1918e741ca64ab83643c0385e61ebcd2fc1a35",
+    "aap-clouds/topics/con-saas-how-private-link-works.adoc": "5de15a4e72470c75fea5c6204f6c0be001f09420bd0b1129f913706bb7b2eaff",
+    "aap-clouds/topics/con-saas-identity-and-access-management.adoc": "458a25c43d1368fde658ed0826c2eb49f5422ae0240c9a29b6daa4c5ac8932a6",
+    "aap-clouds/topics/con-saas-infrastructure-monitoring.adoc": "e341b8eecead230312ff5f43824407e20d942af5bc794f448364f27167065d5e",
+    "aap-clouds/topics/con-saas-limited-support-status.adoc": "c99bc8d497fc0dce0f202a137ac86537f5e920ad707c3a6ee1d30ae051f4f7fd",
+    "aap-clouds/topics/con-saas-monitoring.adoc": "80b6fbef6c678fa3cff4f3c77d05aa9da76a67fdbfaa6d6d1f14bc984c7b65b9",
+    "aap-clouds/topics/con-saas-networking-with-overlapping-CIDR-blocks.adoc": "80569e9ec36a634758f7f70d2d68eada9ecc296b57bcecd192f790e2c8bbe51b",
+    "aap-clouds/topics/con-saas-networking.adoc": "4b20ea14e821d0772d8f49e2a7b3db21dd42839c319849ff1a5c8793c697305d",
+    "aap-clouds/topics/con-saas-private-link-benefits.adoc": "e7503ada6c923421db837324277e2db357aa7d2bdd415b4dfd2e461a92ce2ed1",
+    "aap-clouds/topics/con-saas-privatelink-config-types.adoc": "f88a7487064c77e3c563ded56993558f76ff24242ec2594597ec8feb02cb213e",
+    "aap-clouds/topics/con-saas-regions.adoc": "ff84a227532670b6c23ac5374bc7b29133204b2ba6b3a0303e2aaf93059e9028",
+    "aap-clouds/topics/con-saas-responsibilities.adoc": "e93ced7c4a5ae62f1310845e6efa3c15b3138b1b1f316df1020266ff504b1df4",
+    "aap-clouds/topics/con-saas-security.adoc": "c5dc119383fff43797c811f3e7fb8f95baf8a2122e2bc82d8c9f535469164ae2",
+    "aap-clouds/topics/con-saas-service-uptime.adoc": "f9cf4841160bd2147b818e6941cf3feb4b2b787ebc1ec80265c3536d496c1ab6",
+    "aap-clouds/topics/con-saas-shape.adoc": "a5899f8f87b5f171a9fbec7e537a97818f144d4561841321ca215976bc7c7585",
+    "aap-clouds/topics/con-saas-sla.adoc": "69a3ba2cb6191a498ef3c2fa93945449e629dcab1ec7495f86e60433e796cc22",
+    "aap-clouds/topics/con-saas-sre-access-and-management.adoc": "d1fb4abd862215037dd418a62a13587db4cc8d46bf57f610612dda454ba2b57a",
+    "aap-clouds/topics/con-saas-status-notification.adoc": "2ad5bbbb8c216a1c9143517cf28f1f7ef3079c247e6a3cc6c92e0486074a205f",
+    "aap-clouds/topics/con-saas-sync-with-pah.adoc": "2f470c1fde83cd9d71066bacbfe1acbeef38f8b6c98d1ed3c9df8c7e1c390df3",
+    "aap-clouds/topics/con-saas-updates-and-maintenance.adoc": "659614a0b5f427d1d8a8bfb5d83d562eaa88549e0b6c45155c75b1ca1ac4a2d6",
+    "aap-clouds/topics/proc-saas-config-egress-privatelink.adoc": "91251ac752ae1d37707b1f91182a16098fca1a132212441a2b27e39a74c320fb",
+    "aap-clouds/topics/proc-saas-config-ingress-privatelink.adoc": "6eaf8a007ae7eb599e1db5b888e05525d8480e77837acd27fc2b566bfd61079a",
+    "aap-clouds/topics/proc-saas-custom-dom-with-awsprivatelink.adoc": "9516c01d70642f1f65a7f74a3397a8f9239dda11003c082954de48bde9b7b6f9",
+    "aap-clouds/topics/proc-saas-custom-dom-without-awsprivatelink.adoc": "d6705d741810325166fbf2e115c51e9e97b66b8f2f7f55c2b2e25c68dad85c0f",
+    "aap-clouds/topics/proc-saas-customizing-your-domain.adoc": "2af7a406c817cd456dcd7e178acee8f25f897c7edb286393e95fb228bc15b3f6",
+    "aap-clouds/topics/proc-saas-disconnect-egress-privatelink.adoc": "1c1afac147574321d52736a8390df6249ca4b8a17d04e22c12a9bf781d8db1b8",
+    "aap-clouds/topics/proc-saas-disconnect-ingress-privatelink.adoc": "be60ca662ada5783fedab43751ba81903eac70c67a3d2c17d7db67d8b6092cc3",
+    "aap-clouds/topics/proc-saas-existing-customers.adoc": "60c9eded76021de8c804c5b7cf5f451d33e049ce50a6a035134fe574e70cfc2f",
+    "aap-clouds/topics/proc-saas-ingress-configuration-without.adoc": "fe190d09c96ac053705a21b7b6458d34fa1a627b3e7b23c911b4aed84ecfc875",
+    "aap-clouds/topics/proc-saas-initiate-business-continuity-test.adoc": "ca0881d3a1eefe73e72617aff4722cb28c7fe997aff46e621b86b9e904b3e869",
+    "aap-clouds/topics/proc-saas-primary-deployment-footprint.adoc": "ec27a70e1378913292bb34dcd765fd3492c2cd041291002485a778a57858c4df",
+    "aap-clouds/topics/proc-saas-request-regional-failover.adoc": "a1ff100545b15d9c4ead8c8c1a95928a0ba71a663f5af9738491c0d71c309b33",
+    "aap-clouds/topics/proc-saas-restore-environment-after-contract-end.adoc": "bae0b9414c21c7c1e94f41162c9456cead265608522887e7e6d21d82402ad000",
+    "aap-clouds/topics/proc-saas-set-up-private.adoc": "672ae5d1c37f217b692cfe62025bbb28124a13a7e7477cbf0d3a8f3335d6ad20",
+    "aap-clouds/topics/proc-saas-set-up-public.adoc": "a2e9cfbd9759052721bfd5ea745deadc0d80fa4ca438d5af6d0f1db7e7b37fe3",
+    "aap-clouds/topics/proc-saas-standard-ingress-configuration.adoc": "82099c9017ceaa3d11ad0661728ad11c6fdf610636aa1135987009e2d3ed23b6",
+    "aap-clouds/topics/ref-saas-changing-your-maintenance-window.adoc": "79268542405193c2dc5f0f0f83fe104b6806c985c7945c3365d0908ff84a8498",
+    "aap-clouds/topics/ref-saas-custom-domain-certs.adoc": "650b638925c18f61a7c498ae544acf4da6ca4f0f8c422520251e5d3719b657ee",
+    "aap-clouds/topics/ref-saas-customer-notification-and-confirmation.adoc": "0e18477c0d1d3810fdbe1ac17fc91e89bdbc0222bbbb74599e203b64686e74e5",
+    "aap-clouds/topics/ref-saas-deploy-requirements.adoc": "c310e2b2e521f04d2fc62cf4c570b11730f93ac49ab714119d06f0be0caa6e96",
+    "aap-clouds/topics/ref-saas-disconnect-aws-privatelink.adoc": "b5ba914b64755c9f143b820e0ba222685f242f42fe18b94690574c11cbd8741f",
+    "aap-clouds/topics/ref-saas-eda-perf.adoc": "4172b88887f5cee2c13294b7585c87b8c26d5cf1f64db494d698312351ab36d4",
+    "aap-clouds/topics/ref-saas-egress-model.adoc": "47a730de9e57c921d27af1953f9686066b8b899629819ae1edfa5e6de98b7e01",
+    "aap-clouds/topics/ref-saas-enabling-aws-privatelink.adoc": "cd7f46e05047056be528d0957fed6ef70f55d7e8886c3986cab557c71dc44ef1",
+    "aap-clouds/topics/ref-saas-exe-plane-strategy.adoc": "76f50296d2220d861b70acf54ae9363a943acde081a743bf22bb605dbfa86c75",
+    "aap-clouds/topics/ref-saas-failure-domains.adoc": "92ea04efa2cd1b1bb4fadb364c1c730667680c12a0226ab40e91ce35ad1ef563",
+    "aap-clouds/topics/ref-saas-guidance-parameters.adoc": "f1e436b0565650985bff1e148ce3cd2e25f189162fb7300e1bb19c36455c3d1e",
+    "aap-clouds/topics/ref-saas-inbound-traffic-control.adoc": "e4936c174b7161d04925851851c09ef3ffbcefbcb8c0f639b5f743fbc4e0f8f5",
+    "aap-clouds/topics/ref-saas-infrastructure-cost-breakdown.adoc": "1f234313c4cb8aafc19b9000657aed3c8112020e41d5b1e4703998605325b360",
+    "aap-clouds/topics/ref-saas-infrastructure-metering.adoc": "191f262d15cb758def1b580dcadae6707e7ee910f1770ae146d6774ab2e68fad",
+    "aap-clouds/topics/ref-saas-infrastructure-requirements.adoc": "3ad508bb69ad8bf656ba82718351ecebea97c613237caebfa7405ec3501d2a10",
+    "aap-clouds/topics/ref-saas-mesh-configuration.adoc": "740f73b03d02a004b74466174a0f02795403fcb0dc2c4b9cb3e94eeb8784d4c5",
+    "aap-clouds/topics/ref-saas-mesh-ingress-model.adoc": "360cc2cb6ca5a86c4d12920276138472d99ee7b0b61280c90272541edab46b1e",
+    "aap-clouds/topics/ref-saas-metering-implications-idle.adoc": "7d9f737674bd4d1f2f24a5bc83fdba6ab8043785665f2c38c36b405a3f5d9f51",
+    "aap-clouds/topics/ref-saas-network-dns-routing.adoc": "0a64de2fc5b94f962a33c07ec6342650e8f3ed650b0837618d3cafd8add3566a",
+    "aap-clouds/topics/ref-saas-new-customers.adoc": "877dbdf7628e7d62416e04083d7ad26fcb51f5a7cb342a26766e2e1ebe47f2bd",
+    "aap-clouds/topics/ref-saas-notification-timeline.adoc": "f5d672c2f3f321ebc19f9770990b04550cbd63171079c59816489bcf115232b2",
+    "aap-clouds/topics/ref-saas-prepare-deployment.adoc": "884cd51bfb9257012a6b6fa840e6b1fec4c06880026bc917703be3e1d50c362c",
+    "aap-clouds/topics/ref-saas-primary-region-status.adoc": "6b5891bb01ae5423f201db7c967bdc2cd1996af270f300e849f43140389a7b07",
+    "aap-clouds/topics/ref-saas-privatelink-traffic-flow.adoc": "5ed7c18dea32fd425a6b17f96a2dbdb526f9b42f7be7b9af631f7dc946b5623c",
+    "aap-clouds/topics/ref-saas-regional-outages.adoc": "63953b1c37423078f03074876015c931e0f7f97376bc6f48c19d6696118227fd",
+    "aap-clouds/topics/ref-saas-rollback-protocol.adoc": "714b12f1e69bb56a3fc604666e5846f41c2dcd63efc2fe2e8239416201408f19",
+    "aap-clouds/topics/ref-saas-schedule-business-continuity-tests.adoc": "c2a9b6c9cd646ce62fbfd80e360e78adf1fe728a5602752b715e816d07786dc0",
+    "aap-clouds/topics/ref-saas-service-outages.adoc": "99bebcc7e5c9477881d3571d3a76c691e2b2bb93a02ab35ca6444cfc5f644867",
+    "aap-clouds/topics/ref-saas-sre-locations.adoc": "4eb52cd8aa633af3a3d39d3d8ae14890ebdbea36ecef376f37d9a03e242768c6",
+    "aap-clouds/topics/ref-saas-subscription-lifecycle-timeline.adoc": "858e6216795f2e0b25a5e2374f8c3a21fd81075a6b6d13501e5c2bf726534f40",
+    "aap-clouds/topics/ref-saas-subscription-scenario-outcomes.adoc": "9f86b99617986b5a1a06740a53ef092bd5ab74da0d91d2e95aeb9ec8af92c774",
+    "aap-clouds/topics/ref-saas-technical-operational-impacts.adoc": "2900ebe500aed21cfec2785c283b885de8b920f96fe59fcd030e608e0416b3b1",
+    "aap-clouds/topics/ref-saas-what-idle-means.adoc": "9a0d9361d9445fd3248458014799ca4514097133c8ff5b6f8adbd9258b9c30f0",
+    "aap-clouds/images/AWS_tenant_isolation.png": "c679b187b60663f8d0900d5b13651d4ebb771820366a1bd2c3bd2df7500ee7ad",
+    "aap-clouds/images/automation_mesh.png": "44478b44982bb74fabd04578a01eec7eafac4e807de340dc5a23e4d2cabe052a",
+    "aap-clouds/images/many-zone-subnet.png": "2eb3df6be85124db27cc19a8e03f4af3cdbde8b6452ea5b2c9a84191b2f5b502",
+    "aap-clouds/images/mesh_egress.png": "f8ddbc10ad8b3786e48abe1ed178fc346b31181055a9e2afec3e42c26f027fc8",
+    "aap-clouds/images/mesh_ingress.png": "957acabcec66077757d9349d06248ed262381ee3668fab0be24425ffd520ee8c",
+    "aap-clouds/images/one-zone-subnet.png": "38d958ce3e7b1b8a7d52c8cc01e609ab6286ad9d334b64fd1349a136ab683df7"
+  }
+}

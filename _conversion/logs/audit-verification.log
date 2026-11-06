@@ -1,0 +1,383 @@
+=== aws-audit-resources-conversion.log ===
+11:52:38 INFO Created a DITA reference output=samples/role-block-reference.dita input=samples/role-block-reference.adoc
+11:52:39 INFO Created a DITA concept output=samples/section-heading.dita input=samples/section-heading.adoc
+11:52:39 INFO Created a DITA reference output=samples/section-heading-reference.dita input=samples/section-heading-reference.adoc
+11:52:39 INFO Created a DITA concept output=samples/role-block.dita input=samples/role-block.adoc
+
+
+=== aws-engineer-cleaned-build.log ===
+Error: Failed to move chunk file:/private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp/Chunk1_tmp.dita to file:/private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp/Chunk1.dita
+Error: Failed to move chunk file:/private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp/Chunk2_tmp.dita to file:/private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp/Chunk2.dita
+Error: Failed to move chunk file:/private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp/Chunk1_tmp.dita to file:/private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp/Chunk1.dita
+Error: Failed to move chunk file:/private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp/Chunk2_tmp.dita to file:/private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp/Chunk2.dita
+Error: Failed to move chunk file:/private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp/Chunk1_tmp.dita to file:/private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp/Chunk1.dita
+Error: Failed to move chunk file:/private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp/Chunk2_tmp.dita to file:/private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp/Chunk2.dita
+Error: Failed to move chunk file:/private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp/Chunk1_tmp.dita to file:/private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp/Chunk1.dita
+Error: Failed to move chunk file:/private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp/Chunk2_tmp.dita to file:/private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp/Chunk2.dita
+Error: Failed to read file:/private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp/Chunk2.dita: Failed to parse /private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp/Chunk2.dita:Failed to read document: /private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp/Chunk2.dita (No such file or directory)
+Error: Failed to read file:/private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp/Chunk1.dita: Failed to parse /private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp/Chunk1.dita:Failed to read document: /private/tmp/aws-engineer-verification-20261106-v2/cleaned-temp/Chunk1.dita (No such file or directory)
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/plan/aap-service-aws-plan.ditamap:6:148: [DOTX061W]: The @href attribute value 'Chunk1' contains a fragment identifier, but it does not reference a topic element. The @href attribute on a <topicref> element should only reference topic-level elements.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/plan/aap-service-aws-plan.ditamap:6:148: [DOTX023W]: Unable to retrieve navtitle from target: 'Chunk1.dita#Chunk1'.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/plan/aap-service-aws-plan.ditamap:6:148: [DOTX026W]: Unable to retrieve linktext from target: 'Chunk1.dita#Chunk1'. Using navigation title as fallback.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/plan/aap-service-aws-plan.ditamap:8:90: [DOTX061W]: The @href attribute value 'Chunk1' contains a fragment identifier, but it does not reference a topic element. The @href attribute on a <topicref> element should only reference topic-level elements.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/plan/aap-service-aws-plan.ditamap:8:90: [DOTX023W]: Unable to retrieve navtitle from target: 'Chunk2.dita#Chunk1'.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/plan/aap-service-aws-plan.ditamap:8:90: [DOTX026W]: Unable to retrieve linktext from target: 'Chunk2.dita#Chunk1'. Using navigation title as fallback.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/plan/aap-service-aws-plan.ditamap:9:92: [DOTX061W]: The @href attribute value 'Chunk1' contains a fragment identifier, but it does not reference a topic element. The @href attribute on a <topicref> element should only reference topic-level elements.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/plan/aap-service-aws-plan.ditamap:9:92: [DOTX023W]: Unable to retrieve navtitle from target: 'Chunk1.dita#Chunk1'.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/plan/aap-service-aws-plan.ditamap:9:92: [DOTX026W]: Unable to retrieve linktext from target: 'Chunk1.dita#Chunk1'. Using navigation title as fallback.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/get-started/aap-service-aws-get-started.ditamap:6:134: [DOTX061W]: The @href attribute value 'Chunk1' contains a fragment identifier, but it does not reference a topic element. The @href attribute on a <topicref> element should only reference topic-level elements.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/get-started/aap-service-aws-get-started.ditamap:6:134: [DOTX023W]: Unable to retrieve navtitle from target: 'Chunk2.dita#Chunk1'.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/get-started/aap-service-aws-get-started.ditamap:6:134: [DOTX026W]: Unable to retrieve linktext from target: 'Chunk2.dita#Chunk1'. Using navigation title as fallback.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/administer/aap-service-aws-administer.ditamap:6:96: [DOTX061W]: The @href attribute value 'Chunk1' contains a fragment identifier, but it does not reference a topic element. The @href attribute on a <topicref> element should only reference topic-level elements.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/administer/aap-service-aws-administer.ditamap:6:96: [DOTX023W]: Unable to retrieve navtitle from target: 'Chunk1.dita#Chunk1'.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/administer/aap-service-aws-administer.ditamap:6:96: [DOTX026W]: Unable to retrieve linktext from target: 'Chunk1.dita#Chunk1'. Using navigation title as fallback.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/administer/aap-service-aws-administer.ditamap:7:85: [DOTX061W]: The @href attribute value 'Chunk1' contains a fragment identifier, but it does not reference a topic element. The @href attribute on a <topicref> element should only reference topic-level elements.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/administer/aap-service-aws-administer.ditamap:7:85: [DOTX023W]: Unable to retrieve navtitle from target: 'Chunk2.dita#Chunk1'.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/administer/aap-service-aws-administer.ditamap:7:85: [DOTX026W]: Unable to retrieve linktext from target: 'Chunk2.dita#Chunk1'. Using navigation title as fallback.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/administer/aap-service-aws-administer.ditamap:8:151: [DOTX061W]: The @href attribute value 'Chunk1' contains a fragment identifier, but it does not reference a topic element. The @href attribute on a <topicref> element should only reference topic-level elements.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/administer/aap-service-aws-administer.ditamap:8:151: [DOTX023W]: Unable to retrieve navtitle from target: 'Chunk1.dita#Chunk1'.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/administer/aap-service-aws-administer.ditamap:8:151: [DOTX026W]: Unable to retrieve linktext from target: 'Chunk1.dita#Chunk1'. Using navigation title as fallback.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/administer/aap-service-aws-administer.ditamap:9:128: [DOTX061W]: The @href attribute value 'Chunk1' contains a fragment identifier, but it does not reference a topic element. The @href attribute on a <topicref> element should only reference topic-level elements.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/administer/aap-service-aws-administer.ditamap:9:128: [DOTX023W]: Unable to retrieve navtitle from target: 'Chunk2.dita#Chunk1'.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/administer/aap-service-aws-administer.ditamap:9:128: [DOTX026W]: Unable to retrieve linktext from target: 'Chunk2.dita#Chunk1'. Using navigation title as fallback.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/configure/aap-service-aws-configure.ditamap:7:153: [DOTX061W]: The @href attribute value 'Chunk1' contains a fragment identifier, but it does not reference a topic element. The @href attribute on a <topicref> element should only reference topic-level elements.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/configure/aap-service-aws-configure.ditamap:7:153: [DOTX023W]: Unable to retrieve navtitle from target: 'Chunk1.dita#Chunk1'.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/configure/aap-service-aws-configure.ditamap:7:153: [DOTX026W]: Unable to retrieve linktext from target: 'Chunk1.dita#Chunk1'. Using navigation title as fallback.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/optimize/aap-service-aws-optimize.ditamap:6:118: [DOTX061W]: The @href attribute value 'Chunk1' contains a fragment identifier, but it does not reference a topic element. The @href attribute on a <topicref> element should only reference topic-level elements.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/optimize/aap-service-aws-optimize.ditamap:6:118: [DOTX023W]: Unable to retrieve navtitle from target: 'Chunk2.dita#Chunk1'.
+Warning: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/optimize/aap-service-aws-optimize.ditamap:6:118: [DOTX026W]: Unable to retrieve linktext from target: 'Chunk2.dita#Chunk1'. Using navigation title as fallback.
+Error: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/administer/aap-service-aws-administer.ditamap:9:128: [DOTX031E]: The '../Chunk2.dita#Chunk1' resource is not available to resolve link information.
+Error: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/administer/aap-service-aws-administer.ditamap:6:96: [DOTX031E]: The '../Chunk1.dita#Chunk1' resource is not available to resolve link information.
+Error: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/configure/aap-service-aws-configure.ditamap:7:153: [DOTX031E]: The '../Chunk1.dita#Chunk1' resource is not available to resolve link information.
+Error: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/plan/aap-service-aws-plan.ditamap:6:148: [DOTX031E]: The '../Chunk1.dita#Chunk1' resource is not available to resolve link information.
+Error: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/optimize/aap-service-aws-optimize.ditamap:6:118: [DOTX031E]: The '../Chunk2.dita#Chunk1' resource is not available to resolve link information.
+Error: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/plan/aap-service-aws-plan.ditamap:8:90: [DOTX031E]: The '../Chunk2.dita#Chunk1' resource is not available to resolve link information.
+Error: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/administer/aap-service-aws-administer.ditamap:7:85: [DOTX031E]: The '../Chunk2.dita#Chunk1' resource is not available to resolve link information.
+Error: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/plan/aap-service-aws-plan.ditamap:9:92: [DOTX031E]: The '../Chunk1.dita#Chunk1' resource is not available to resolve link information.
+Error: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/administer/aap-service-aws-administer.ditamap:8:151: [DOTX031E]: The '../Chunk1.dita#Chunk1' resource is not available to resolve link information.
+Error: file:/private/tmp/aws-engineer-verification-20261106-v2/organized/get-started/aap-service-aws-get-started.ditamap:6:134: [DOTX031E]: The '../Chunk2.dita#Chunk1' resource is not available to resolve link information.
+
+
+=== aws-engineer-cleanup.log ===
+=== prune-ids.log ===
+
+=== prune-xrefs.log ===
+
+=== links.log ===
+Building ID index from /private/tmp/aws-engineer-verification-20261106-v2/organized ...
+  130 unique IDs indexed; 0 IDs occur in multiple topics.
+
+
+Total links fixed: 0
+No unresolved link hrefs.
+
+=== images.log ===
+
+=== xrefs.log ===
+
+=== restore.log ===
+No changed explicit href paths to restore.
+Target file mismatch diagnostics left explicit hrefs unchanged: 0.
+
+
+=== aws-engineer-rename.log ===
+Filename normalization:
+  con-saas-networking-with-overlapping-CIDR-blocks.dita → con-saas-networking-with-overlapping-cidr-blocks.dita
+
+
+=== aws-map-assembly-topics-conversion.log ===
+11:45:30 INFO Created a DITA map output=aap-service-aws-navigation.ditamap input=aap-service-aws-navigation.adoc
+11:45:30 INFO Created a DITA concept output=aap-clouds/stories/assembly-saas-aap-best-practices.dita input=aap-clouds/stories/assembly-saas-aap-best-practices.adoc
+11:45:31 INFO Created a DITA concept output=aap-clouds/stories/assembly-saas-account-management.dita input=aap-clouds/stories/assembly-saas-account-management.adoc
+11:45:31 INFO Created a DITA concept output=aap-clouds/stories/assembly-saas-business-continuity.dita input=aap-clouds/stories/assembly-saas-business-continuity.adoc
+11:45:31 INFO Created a DITA concept output=aap-clouds/stories/assembly-saas-control-plane.dita input=aap-clouds/stories/assembly-saas-control-plane.adoc
+11:45:31 INFO Created a DITA concept output=aap-clouds/stories/assembly-saas-execution-plane.dita input=aap-clouds/stories/assembly-saas-execution-plane.adoc
+11:45:31 INFO Created a DITA concept output=aap-clouds/stories/assembly-saas-intro.dita input=aap-clouds/stories/assembly-saas-intro.adoc
+11:45:32 INFO Created a DITA concept output=aap-clouds/stories/assembly-saas-post-deloyment-configuration.dita input=aap-clouds/stories/assembly-saas-post-deloyment-configuration.adoc
+11:45:32 INFO Created a DITA concept output=aap-clouds/stories/assembly-saas-post-install-config.dita input=aap-clouds/stories/assembly-saas-post-install-config.adoc
+11:45:32 INFO Created a DITA concept output=aap-clouds/stories/assembly-saas-private-link.dita input=aap-clouds/stories/assembly-saas-private-link.adoc
+11:45:32 INFO Created a DITA concept output=aap-clouds/stories/assembly-saas-pull-push.dita input=aap-clouds/stories/assembly-saas-pull-push.adoc
+11:45:32 INFO Created a DITA concept output=aap-clouds/stories/assembly-saas-service-definition.dita input=aap-clouds/stories/assembly-saas-service-definition.adoc
+11:45:32 INFO Created a DITA concept output=aap-clouds/stories/assembly-saas-set-up.dita input=aap-clouds/stories/assembly-saas-set-up.adoc
+11:45:33 INFO Created a DITA concept output=aap-clouds/stories/assembly-saas-subscription-lifecycle.dita input=aap-clouds/stories/assembly-saas-subscription-lifecycle.adoc
+11:45:33 INFO Created a DITA concept output=aap-clouds/stories/assembly-saas-support.dita input=aap-clouds/stories/assembly-saas-support.adoc
+11:45:33 INFO Created a DITA concept output=aap-clouds/topics/con-aap-notification-feed.dita input=aap-clouds/topics/con-aap-notification-feed.adoc
+11:45:33 INFO Created a DITA concept output=aap-clouds/topics/con-saas-application-monitoring-and-customer-audits.dita input=aap-clouds/topics/con-saas-application-monitoring-and-customer-audits.adoc
+11:45:33 INFO Created a DITA concept output=aap-clouds/topics/con-saas-automation-for-instance-groups.dita input=aap-clouds/topics/con-saas-automation-for-instance-groups.adoc
+11:45:34 INFO Created a DITA concept output=aap-clouds/topics/con-saas-automation-mesh.dita input=aap-clouds/topics/con-saas-automation-mesh.adoc
+11:45:34 INFO Created a DITA concept output=aap-clouds/topics/con-saas-automation.dita input=aap-clouds/topics/con-saas-automation.adoc
+11:45:34 INFO Created a DITA concept output=aap-clouds/topics/con-saas-aws-vs-redhat-subscription.dita input=aap-clouds/topics/con-saas-aws-vs-redhat-subscription.adoc
+11:45:34 INFO Created a DITA concept output=aap-clouds/topics/con-saas-backup-and-disaster-recovery.dita input=aap-clouds/topics/con-saas-backup-and-disaster-recovery.adoc
+11:45:34 INFO Created a DITA concept output=aap-clouds/topics/con-saas-billing.dita input=aap-clouds/topics/con-saas-billing.adoc
+11:45:34 INFO Created a DITA concept output=aap-clouds/topics/con-saas-config-aws-privatelink.dita input=aap-clouds/topics/con-saas-config-aws-privatelink.adoc
+11:45:35 INFO Created a DITA concept output=aap-clouds/topics/con-saas-connectivity.dita input=aap-clouds/topics/con-saas-connectivity.adoc
+11:45:35 INFO Created a DITA concept output=aap-clouds/topics/con-saas-contract-end-trigger.dita input=aap-clouds/topics/con-saas-contract-end-trigger.adoc
+11:45:35 INFO Created a DITA concept output=aap-clouds/topics/con-saas-custom-domain.dita input=aap-clouds/topics/con-saas-custom-domain.adoc
+11:45:35 INFO Created a DITA concept output=aap-clouds/topics/con-saas-customer-access.dita input=aap-clouds/topics/con-saas-customer-access.adoc
+11:45:35 INFO Created a DITA concept output=aap-clouds/topics/con-saas-deployment-self-service.dita input=aap-clouds/topics/con-saas-deployment-self-service.adoc
+11:45:35 WARN Thematic breaks not supported in DITA output=aap-clouds/topics/con-saas-dns-resolution-requirements.dita input=aap-clouds/topics/con-saas-dns-resolution-requirements.adoc
+11:45:35 WARN Thematic breaks not supported in DITA output=aap-clouds/topics/con-saas-dns-resolution-requirements.dita input=aap-clouds/topics/con-saas-dns-resolution-requirements.adoc
+11:45:35 INFO Created a DITA concept output=aap-clouds/topics/con-saas-dns-resolution-requirements.dita input=aap-clouds/topics/con-saas-dns-resolution-requirements.adoc
+11:45:36 INFO Created a DITA concept output=aap-clouds/topics/con-saas-dns.dita input=aap-clouds/topics/con-saas-dns.adoc
+11:45:36 INFO Created a DITA concept output=aap-clouds/topics/con-saas-encryption.dita input=aap-clouds/topics/con-saas-encryption.adoc
+11:45:36 INFO Created a DITA concept output=aap-clouds/topics/con-saas-hosted-components.dita input=aap-clouds/topics/con-saas-hosted-components.adoc
+11:45:36 INFO Created a DITA concept output=aap-clouds/topics/con-saas-how-private-link-works.dita input=aap-clouds/topics/con-saas-how-private-link-works.adoc
+11:45:36 INFO Created a DITA concept output=aap-clouds/topics/con-saas-identity-and-access-management.dita input=aap-clouds/topics/con-saas-identity-and-access-management.adoc
+11:45:36 INFO Created a DITA concept output=aap-clouds/topics/con-saas-infrastructure-monitoring.dita input=aap-clouds/topics/con-saas-infrastructure-monitoring.adoc
+11:45:37 INFO Created a DITA concept output=aap-clouds/topics/con-saas-limited-support-status.dita input=aap-clouds/topics/con-saas-limited-support-status.adoc
+11:45:37 INFO Created a DITA concept output=aap-clouds/topics/con-saas-monitoring.dita input=aap-clouds/topics/con-saas-monitoring.adoc
+11:45:37 INFO Created a DITA concept output=aap-clouds/topics/con-saas-networking-with-overlapping-CIDR-blocks.dita input=aap-clouds/topics/con-saas-networking-with-overlapping-CIDR-blocks.adoc
+11:45:37 INFO Created a DITA concept output=aap-clouds/topics/con-saas-networking.dita input=aap-clouds/topics/con-saas-networking.adoc
+11:45:37 INFO Created a DITA concept output=aap-clouds/topics/con-saas-private-link-benefits.dita input=aap-clouds/topics/con-saas-private-link-benefits.adoc
+11:45:37 INFO Created a DITA concept output=aap-clouds/topics/con-saas-privatelink-config-types.dita input=aap-clouds/topics/con-saas-privatelink-config-types.adoc
+11:45:38 INFO Created a DITA concept output=aap-clouds/topics/con-saas-regions.dita input=aap-clouds/topics/con-saas-regions.adoc
+11:45:38 INFO Created a DITA concept output=aap-clouds/topics/con-saas-responsibilities.dita input=aap-clouds/topics/con-saas-responsibilities.adoc
+11:45:38 INFO Created a DITA concept output=aap-clouds/topics/con-saas-security.dita input=aap-clouds/topics/con-saas-security.adoc
+11:45:38 INFO Created a DITA concept output=aap-clouds/topics/con-saas-service-uptime.dita input=aap-clouds/topics/con-saas-service-uptime.adoc
+11:45:38 INFO Created a DITA concept output=aap-clouds/topics/con-saas-shape.dita input=aap-clouds/topics/con-saas-shape.adoc
+11:45:39 INFO Created a DITA concept output=aap-clouds/topics/con-saas-sla.dita input=aap-clouds/topics/con-saas-sla.adoc
+11:45:39 INFO Created a DITA concept output=aap-clouds/topics/con-saas-sre-access-and-management.dita input=aap-clouds/topics/con-saas-sre-access-and-management.adoc
+11:45:39 INFO Created a DITA concept output=aap-clouds/topics/con-saas-status-notification.dita input=aap-clouds/topics/con-saas-status-notification.adoc
+11:45:39 INFO Created a DITA concept output=aap-clouds/topics/con-saas-sync-with-pah.dita input=aap-clouds/topics/con-saas-sync-with-pah.adoc
+11:45:39 INFO Created a DITA concept output=aap-clouds/topics/con-saas-updates-and-maintenance.dita input=aap-clouds/topics/con-saas-updates-and-maintenance.adoc
+11:45:39 INFO Created a DITA task output=aap-clouds/topics/proc-saas-config-egress-privatelink.dita input=aap-clouds/topics/proc-saas-config-egress-privatelink.adoc
+11:45:40 INFO Created a DITA task output=aap-clouds/topics/proc-saas-config-ingress-privatelink.dita input=aap-clouds/topics/proc-saas-config-ingress-privatelink.adoc
+11:45:40 WARN Unsupported title 'Validation' found, skipping... output=aap-clouds/topics/proc-saas-custom-dom-with-awsprivatelink.dita input=aap-clouds/topics/proc-saas-custom-dom-with-awsprivatelink.adoc
+11:45:40 INFO Created a DITA task output=aap-clouds/topics/proc-saas-custom-dom-with-awsprivatelink.dita input=aap-clouds/topics/proc-saas-custom-dom-with-awsprivatelink.adoc
+11:45:40 WARN Unsupported title 'Validation' found, skipping... output=aap-clouds/topics/proc-saas-custom-dom-without-awsprivatelink.dita input=aap-clouds/topics/proc-saas-custom-dom-without-awsprivatelink.adoc
+11:45:40 INFO Created a DITA task output=aap-clouds/topics/proc-saas-custom-dom-without-awsprivatelink.dita input=aap-clouds/topics/proc-saas-custom-dom-without-awsprivatelink.adoc
+11:45:40 INFO Created a DITA task output=aap-clouds/topics/proc-saas-customizing-your-domain.dita input=aap-clouds/topics/proc-saas-customizing-your-domain.adoc
+11:45:40 WARN Non-list elements found in steps, skipping... output=aap-clouds/topics/proc-saas-disconnect-egress-privatelink.dita input=aap-clouds/topics/proc-saas-disconnect-egress-privatelink.adoc
+11:45:40 INFO Created a DITA task output=aap-clouds/topics/proc-saas-disconnect-egress-privatelink.dita input=aap-clouds/topics/proc-saas-disconnect-egress-privatelink.adoc
+11:45:41 WARN Non-list elements found in steps, skipping... output=aap-clouds/topics/proc-saas-disconnect-ingress-privatelink.dita input=aap-clouds/topics/proc-saas-disconnect-ingress-privatelink.adoc
+11:45:41 INFO Created a DITA task output=aap-clouds/topics/proc-saas-disconnect-ingress-privatelink.dita input=aap-clouds/topics/proc-saas-disconnect-ingress-privatelink.adoc
+11:45:41 INFO Created a DITA task output=aap-clouds/topics/proc-saas-existing-customers.dita input=aap-clouds/topics/proc-saas-existing-customers.adoc
+11:45:41 INFO Created a DITA task output=aap-clouds/topics/proc-saas-ingress-configuration-without.dita input=aap-clouds/topics/proc-saas-ingress-configuration-without.adoc
+11:45:41 INFO Created a DITA task output=aap-clouds/topics/proc-saas-initiate-business-continuity-test.dita input=aap-clouds/topics/proc-saas-initiate-business-continuity-test.adoc
+11:45:41 INFO Created a DITA task output=aap-clouds/topics/proc-saas-primary-deployment-footprint.dita input=aap-clouds/topics/proc-saas-primary-deployment-footprint.adoc
+11:45:41 INFO Created a DITA task output=aap-clouds/topics/proc-saas-request-regional-failover.dita input=aap-clouds/topics/proc-saas-request-regional-failover.adoc
+11:45:42 INFO Created a DITA task output=aap-clouds/topics/proc-saas-restore-environment-after-contract-end.dita input=aap-clouds/topics/proc-saas-restore-environment-after-contract-end.adoc
+11:45:42 INFO Created a DITA task output=aap-clouds/topics/proc-saas-set-up-private.dita input=aap-clouds/topics/proc-saas-set-up-private.adoc
+11:45:42 INFO Created a DITA task output=aap-clouds/topics/proc-saas-set-up-public.dita input=aap-clouds/topics/proc-saas-set-up-public.adoc
+11:45:42 WARN Possible invalid reference: #ref-saas-network-dns-routing output=aap-clouds/topics/proc-saas-standard-ingress-configuration.dita input=aap-clouds/topics/proc-saas-standard-ingress-configuration.adoc
+11:45:42 INFO Created a DITA task output=aap-clouds/topics/proc-saas-standard-ingress-configuration.dita input=aap-clouds/topics/proc-saas-standard-ingress-configuration.adoc
+11:45:42 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-changing-your-maintenance-window.dita input=aap-clouds/topics/ref-saas-changing-your-maintenance-window.adoc
+11:45:42 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-custom-domain-certs.dita input=aap-clouds/topics/ref-saas-custom-domain-certs.adoc
+11:45:43 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-customer-notification-and-confirmation.dita input=aap-clouds/topics/ref-saas-customer-notification-and-confirmation.adoc
+11:45:43 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-deploy-requirements.dita input=aap-clouds/topics/ref-saas-deploy-requirements.adoc
+11:45:43 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-disconnect-aws-privatelink.dita input=aap-clouds/topics/ref-saas-disconnect-aws-privatelink.adoc
+11:45:43 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-eda-perf.dita input=aap-clouds/topics/ref-saas-eda-perf.adoc
+11:45:43 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-egress-model.dita input=aap-clouds/topics/ref-saas-egress-model.adoc
+11:45:43 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-enabling-aws-privatelink.dita input=aap-clouds/topics/ref-saas-enabling-aws-privatelink.adoc
+11:45:44 WARN Possible invalid reference: #ref-saas-infrastructure-metering output=aap-clouds/topics/ref-saas-exe-plane-strategy.dita input=aap-clouds/topics/ref-saas-exe-plane-strategy.adoc
+11:45:44 WARN Possible invalid reference: #ref-saas-infrastructure-metering output=aap-clouds/topics/ref-saas-exe-plane-strategy.dita input=aap-clouds/topics/ref-saas-exe-plane-strategy.adoc
+11:45:44 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-exe-plane-strategy.dita input=aap-clouds/topics/ref-saas-exe-plane-strategy.adoc
+11:45:44 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-failure-domains.dita input=aap-clouds/topics/ref-saas-failure-domains.adoc
+11:45:44 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-guidance-parameters.dita input=aap-clouds/topics/ref-saas-guidance-parameters.adoc
+11:45:44 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-inbound-traffic-control.dita input=aap-clouds/topics/ref-saas-inbound-traffic-control.adoc
+11:45:44 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-infrastructure-cost-breakdown.dita input=aap-clouds/topics/ref-saas-infrastructure-cost-breakdown.adoc
+11:45:44 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-infrastructure-metering.dita input=aap-clouds/topics/ref-saas-infrastructure-metering.adoc
+11:45:45 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-infrastructure-requirements.dita input=aap-clouds/topics/ref-saas-infrastructure-requirements.adoc
+11:45:45 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-mesh-configuration.dita input=aap-clouds/topics/ref-saas-mesh-configuration.adoc
+11:45:45 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-mesh-ingress-model.dita input=aap-clouds/topics/ref-saas-mesh-ingress-model.adoc
+11:45:45 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-metering-implications-idle.dita input=aap-clouds/topics/ref-saas-metering-implications-idle.adoc
+11:45:45 WARN Possible invalid reference: #proc-saas-standard-ingress-configuration output=aap-clouds/topics/ref-saas-network-dns-routing.dita input=aap-clouds/topics/ref-saas-network-dns-routing.adoc
+11:45:45 WARN Possible invalid reference: #proc-saas-standard-ingress-configuration output=aap-clouds/topics/ref-saas-network-dns-routing.dita input=aap-clouds/topics/ref-saas-network-dns-routing.adoc
+11:45:45 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-network-dns-routing.dita input=aap-clouds/topics/ref-saas-network-dns-routing.adoc
+11:45:46 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-new-customers.dita input=aap-clouds/topics/ref-saas-new-customers.adoc
+11:45:46 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-notification-timeline.dita input=aap-clouds/topics/ref-saas-notification-timeline.adoc
+11:45:46 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-prepare-deployment.dita input=aap-clouds/topics/ref-saas-prepare-deployment.adoc
+11:45:46 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-primary-region-status.dita input=aap-clouds/topics/ref-saas-primary-region-status.adoc
+11:45:46 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-privatelink-traffic-flow.dita input=aap-clouds/topics/ref-saas-privatelink-traffic-flow.adoc
+11:45:46 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-regional-outages.dita input=aap-clouds/topics/ref-saas-regional-outages.adoc
+11:45:47 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-rollback-protocol.dita input=aap-clouds/topics/ref-saas-rollback-protocol.adoc
+11:45:47 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-schedule-business-continuity-tests.dita input=aap-clouds/topics/ref-saas-schedule-business-continuity-tests.adoc
+11:45:47 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-service-outages.dita input=aap-clouds/topics/ref-saas-service-outages.adoc
+11:45:47 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-sre-locations.dita input=aap-clouds/topics/ref-saas-sre-locations.adoc
+11:45:47 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-subscription-lifecycle-timeline.dita input=aap-clouds/topics/ref-saas-subscription-lifecycle-timeline.adoc
+11:45:47 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-subscription-scenario-outcomes.dita input=aap-clouds/topics/ref-saas-subscription-scenario-outcomes.adoc
+11:45:48 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-technical-operational-impacts.dita input=aap-clouds/topics/ref-saas-technical-operational-impacts.adoc
+11:45:48 INFO Created a DITA reference output=aap-clouds/topics/ref-saas-what-idle-means.dita input=aap-clouds/topics/ref-saas-what-idle-means.adoc
+11:45:48 INFO Created a DITA map output=aap-service-aws-administer.ditamap input=aap-service-aws-administer.adoc
+11:45:48 INFO Created a DITA map output=aap-service-aws-configure.ditamap input=aap-service-aws-configure.adoc
+11:45:48 INFO Created a DITA map output=aap-service-aws-discover.ditamap input=aap-service-aws-discover.adoc
+11:45:49 INFO Created a DITA map output=aap-service-aws-get-started.ditamap input=aap-service-aws-get-started.adoc
+11:45:49 INFO Created a DITA map output=aap-service-aws-optimize.ditamap input=aap-service-aws-optimize.adoc
+11:45:49 INFO Created a DITA map output=aap-service-aws-plan.ditamap input=aap-service-aws-plan.adoc
+11:45:49 INFO Created a DITA map output=account-management.ditamap input=account-management.adoc
+11:45:49 INFO Created a DITA map output=control-plane.ditamap input=control-plane.adoc
+11:45:50 INFO Created a DITA map output=execution-plane.ditamap input=execution-plane.adoc
+11:45:50 INFO Created a DITA map output=multiregion-activepassive-infrastructure.ditamap input=multiregion-activepassive-infrastructure.adoc
+11:45:50 INFO Created a DITA map output=red-hat-ansible-automation-platform-best-practices.ditamap input=red-hat-ansible-automation-platform-best-practices.adoc
+11:45:50 INFO Created a DITA map output=red-hat-ansible-automation-platform-service-on-aws-private-link-connectivity.ditamap input=red-hat-ansible-automation-platform-service-on-aws-private-link-connectivity.adoc
+11:45:50 INFO Created a DITA map output=red-hat-ansible-automation-platform-service-on-aws-pull-and-push-models.ditamap input=red-hat-ansible-automation-platform-service-on-aws-pull-and-push-models.adoc
+11:45:51 INFO Created a DITA map output=red-hat-ansible-automation-platform-service-on-aws-subscription-lifecycle.ditamap input=red-hat-ansible-automation-platform-service-on-aws-subscription-lifecycle.adoc
+11:45:51 INFO Created a DITA map output=set-up-red-hat-ansible-automation-platform-service-on-aws.ditamap input=set-up-red-hat-ansible-automation-platform-service-on-aws.adoc
+11:45:51 INFO Created a DITA map output=support.ditamap input=support.adoc
+
+
+=== aws-map-assembly-topics-dita-build.log ===
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/stories/assembly-saas-control-plane.dita:11:188: [DOTJ088E] XML parsing error: Attribute value "however the diagram illustrated that each deployment is isolated by an independent and unconnected AWS infastructure." of type NMTOKEN must be a name token.
+Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/stories/AWS_tenant_isolation.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/stories/AWS_tenant_isolation.png' exists and that you have permission to access it.
+Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/automation_mesh.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/automation_mesh.png' exists and that you have permission to access it.
+Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/one-zone-subnet.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/one-zone-subnet.png' exists and that you have permission to access it.
+Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/many-zone-subnet.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/many-zone-subnet.png' exists and that you have permission to access it.
+Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/mesh_egress.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/mesh_egress.png' exists and that you have permission to access it.
+Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/mesh_ingress.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/mesh_ingress.png' exists and that you have permission to access it.
+Error: Failed to move chunk file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics-dita-temp/Chunk1_tmp.dita to file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics-dita-temp/Chunk1.dita
+Error: Failed to move chunk file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics-dita-temp/Chunk2_tmp.dita to file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics-dita-temp/Chunk2.dita
+Error: Failed to move chunk file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics-dita-temp/Chunk1_tmp.dita to file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics-dita-temp/Chunk1.dita
+Error: Failed to move chunk file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics-dita-temp/Chunk2_tmp.dita to file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics-dita-temp/Chunk2.dita
+Error: Failed to move chunk file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics-dita-temp/Chunk1_tmp.dita to file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics-dita-temp/Chunk1.dita
+Error: Failed to move chunk file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics-dita-temp/Chunk2_tmp.dita to file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics-dita-temp/Chunk2.dita
+Error: Failed to move chunk file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics-dita-temp/Chunk1_tmp.dita to file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics-dita-temp/Chunk1.dita
+Error: Failed to move chunk file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics-dita-temp/Chunk2_tmp.dita to file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics-dita-temp/Chunk2.dita
+Error: Failed to read file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics-dita-temp/Chunk2.dita: Failed to parse /private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics-dita-temp/Chunk2.dita:Failed to read document: /private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics-dita-temp/Chunk2.dita (No such file or directory)
+Error: Failed to read file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics-dita-temp/Chunk1.dita: Failed to parse /private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics-dita-temp/Chunk1.dita:Failed to read document: /private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics-dita-temp/Chunk1.dita (No such file or directory)
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-plan.ditamap:6:149: [DOTX061W]: The @href attribute value 'Chunk1' contains a fragment identifier, but it does not reference a topic element. The @href attribute on a <topicref> element should only reference topic-level elements.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-plan.ditamap:6:149: [DOTX023W]: Unable to retrieve navtitle from target: 'Chunk1.dita#Chunk1'.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-plan.ditamap:6:149: [DOTX026W]: Unable to retrieve linktext from target: 'Chunk1.dita#Chunk1'. Using navigation title as fallback.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-plan.ditamap:8:91: [DOTX061W]: The @href attribute value 'Chunk1' contains a fragment identifier, but it does not reference a topic element. The @href attribute on a <topicref> element should only reference topic-level elements.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-plan.ditamap:8:91: [DOTX023W]: Unable to retrieve navtitle from target: 'Chunk2.dita#Chunk1'.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-plan.ditamap:8:91: [DOTX026W]: Unable to retrieve linktext from target: 'Chunk2.dita#Chunk1'. Using navigation title as fallback.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-plan.ditamap:9:93: [DOTX061W]: The @href attribute value 'Chunk1' contains a fragment identifier, but it does not reference a topic element. The @href attribute on a <topicref> element should only reference topic-level elements.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-plan.ditamap:9:93: [DOTX023W]: Unable to retrieve navtitle from target: 'Chunk1.dita#Chunk1'.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-plan.ditamap:9:93: [DOTX026W]: Unable to retrieve linktext from target: 'Chunk1.dita#Chunk1'. Using navigation title as fallback.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-get-started.ditamap:6:135: [DOTX061W]: The @href attribute value 'Chunk1' contains a fragment identifier, but it does not reference a topic element. The @href attribute on a <topicref> element should only reference topic-level elements.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-get-started.ditamap:6:135: [DOTX023W]: Unable to retrieve navtitle from target: 'Chunk2.dita#Chunk1'.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-get-started.ditamap:6:135: [DOTX026W]: Unable to retrieve linktext from target: 'Chunk2.dita#Chunk1'. Using navigation title as fallback.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-administer.ditamap:6:96: [DOTX061W]: The @href attribute value 'Chunk1' contains a fragment identifier, but it does not reference a topic element. The @href attribute on a <topicref> element should only reference topic-level elements.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-administer.ditamap:6:96: [DOTX023W]: Unable to retrieve navtitle from target: 'Chunk1.dita#Chunk1'.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-administer.ditamap:6:96: [DOTX026W]: Unable to retrieve linktext from target: 'Chunk1.dita#Chunk1'. Using navigation title as fallback.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-administer.ditamap:7:85: [DOTX061W]: The @href attribute value 'Chunk1' contains a fragment identifier, but it does not reference a topic element. The @href attribute on a <topicref> element should only reference topic-level elements.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-administer.ditamap:7:85: [DOTX023W]: Unable to retrieve navtitle from target: 'Chunk2.dita#Chunk1'.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-administer.ditamap:7:85: [DOTX026W]: Unable to retrieve linktext from target: 'Chunk2.dita#Chunk1'. Using navigation title as fallback.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-administer.ditamap:8:151: [DOTX061W]: The @href attribute value 'Chunk1' contains a fragment identifier, but it does not reference a topic element. The @href attribute on a <topicref> element should only reference topic-level elements.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-administer.ditamap:8:151: [DOTX023W]: Unable to retrieve navtitle from target: 'Chunk1.dita#Chunk1'.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-administer.ditamap:8:151: [DOTX026W]: Unable to retrieve linktext from target: 'Chunk1.dita#Chunk1'. Using navigation title as fallback.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-administer.ditamap:9:128: [DOTX061W]: The @href attribute value 'Chunk1' contains a fragment identifier, but it does not reference a topic element. The @href attribute on a <topicref> element should only reference topic-level elements.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-administer.ditamap:9:128: [DOTX023W]: Unable to retrieve navtitle from target: 'Chunk2.dita#Chunk1'.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-administer.ditamap:9:128: [DOTX026W]: Unable to retrieve linktext from target: 'Chunk2.dita#Chunk1'. Using navigation title as fallback.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-configure.ditamap:7:154: [DOTX061W]: The @href attribute value 'Chunk1' contains a fragment identifier, but it does not reference a topic element. The @href attribute on a <topicref> element should only reference topic-level elements.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-configure.ditamap:7:154: [DOTX023W]: Unable to retrieve navtitle from target: 'Chunk1.dita#Chunk1'.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-configure.ditamap:7:154: [DOTX026W]: Unable to retrieve linktext from target: 'Chunk1.dita#Chunk1'. Using navigation title as fallback.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-optimize.ditamap:6:118: [DOTX061W]: The @href attribute value 'Chunk1' contains a fragment identifier, but it does not reference a topic element. The @href attribute on a <topicref> element should only reference topic-level elements.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-optimize.ditamap:6:118: [DOTX023W]: Unable to retrieve navtitle from target: 'Chunk2.dita#Chunk1'.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-optimize.ditamap:6:118: [DOTX026W]: Unable to retrieve linktext from target: 'Chunk2.dita#Chunk1'. Using navigation title as fallback.
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-plan.ditamap:6:149: [DOTX031E]: The '../../Chunk1.dita#Chunk1' resource is not available to resolve link information.
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-administer.ditamap:8:151: [DOTX031E]: The '../../Chunk1.dita#Chunk1' resource is not available to resolve link information.
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-plan.ditamap:9:93: [DOTX031E]: The '../../Chunk1.dita#Chunk1' resource is not available to resolve link information.
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-administer.ditamap:7:85: [DOTX031E]: The '../../Chunk2.dita#Chunk1' resource is not available to resolve link information.
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-administer.ditamap:6:96: [DOTX031E]: The '../../Chunk1.dita#Chunk1' resource is not available to resolve link information.
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-administer.ditamap:9:128: [DOTX031E]: The '../../Chunk2.dita#Chunk1' resource is not available to resolve link information.
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-configure.ditamap:7:154: [DOTX031E]: The '../../Chunk1.dita#Chunk1' resource is not available to resolve link information.
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-optimize.ditamap:6:118: [DOTX031E]: The '../../Chunk2.dita#Chunk1' resource is not available to resolve link information.
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/proc-saas-standard-ingress-configuration.dita:5:154: [DOTX031E]: The '../topics/proc-saas-standard-ingress-configuration.dita#ref-saas-network-dns-routing' resource is not available to resolve link information.
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/proc-saas-standard-ingress-configuration.dita:5:154: [DOTX031E]: The '../topics/proc-saas-standard-ingress-configuration.dita#ref-saas-network-dns-routing' resource is not available to resolve link information.
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/ref-saas-network-dns-routing.dita:9:498: [DOTX031E]: The '../topics/ref-saas-network-dns-routing.dita#proc-saas-standard-ingress-configuration' resource is not available to resolve link information.
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-plan.ditamap:8:91: [DOTX031E]: The '../../Chunk2.dita#Chunk1' resource is not available to resolve link information.
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/ref-saas-exe-plane-strategy.dita:10:74: [DOTX031E]: The '../topics/ref-saas-exe-plane-strategy.dita#ref-saas-infrastructure-metering' resource is not available to resolve link information.
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-service-aws-get-started.ditamap:6:135: [DOTX031E]: The '../../Chunk2.dita#Chunk1' resource is not available to resolve link information.
+Error: File file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/one-zone-subnet.png not found
+Error: File file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/stories/AWS_tenant_isolation.png not found
+Error: File file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/mesh_ingress.png not found
+Error: File file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/many-zone-subnet.png not found
+Error: File file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/mesh_egress.png not found
+Error: File file:/private/tmp/aap-aws-map-verification-20261106-v2/assembly-topics/aap-clouds/topics/automation_mesh.png not found
+Error: Image file mesh_egress.png not found
+Error: Image file mesh_ingress.png not found
+Error: Image file automation_mesh.png not found
+Error: Image file one-zone-subnet.png not found
+Error: Image file many-zone-subnet.png not found
+Error: Image file AWS_tenant_isolation.png not found
+
+
+=== aws-map-baseline-conversion.log ===
+Matches original conversion.log after removing per-line timestamps; original log retained.
+
+
+=== aws-map-baseline-dita-build.log ===
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/account-management.ditamap:12:12: [DOTJ088E] XML parsing error: The content of element type "mapref" must match "(topicmeta?,(data|sort-as|data-about)*)".
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/control-plane.ditamap:28:12: [DOTJ088E] XML parsing error: The content of element type "mapref" must match "(topicmeta?,(data|sort-as|data-about)*)".
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/assembly-saas-control-plane.dita:11:188: [DOTJ088E] XML parsing error: Attribute value "however the diagram illustrated that each deployment is isolated by an independent and unconnected AWS infastructure." of type NMTOKEN must be a name token.
+Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/AWS_tenant_isolation.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/AWS_tenant_isolation.png' exists and that you have permission to access it.
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/execution-plane.ditamap:15:12: [DOTJ088E] XML parsing error: The content of element type "mapref" must match "(topicmeta?,(data|sort-as|data-about)*)".
+Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/topics/automation_mesh.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/topics/automation_mesh.png' exists and that you have permission to access it.
+Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/topics/automation_mesh.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/topics/automation_mesh.png' exists and that you have permission to access it.
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/multiregion-activepassive-infrastructure.ditamap:29:12: [DOTJ088E] XML parsing error: The content of element type "mapref" must match "(topicmeta?,(data|sort-as|data-about)*)".
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/red-hat-ansible-automation-platform-best-practices.ditamap:8:12: [DOTJ088E] XML parsing error: The content of element type "mapref" must match "(topicmeta?,(data|sort-as|data-about)*)".
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/red-hat-ansible-automation-platform-service-on-aws-private-link-connectivity.ditamap:16:12: [DOTJ088E] XML parsing error: The content of element type "mapref" must match "(topicmeta?,(data|sort-as|data-about)*)".
+Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/topics/one-zone-subnet.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/topics/one-zone-subnet.png' exists and that you have permission to access it.
+Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/topics/many-zone-subnet.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/topics/many-zone-subnet.png' exists and that you have permission to access it.
+Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/topics/one-zone-subnet.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/topics/one-zone-subnet.png' exists and that you have permission to access it.
+Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/topics/many-zone-subnet.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/topics/many-zone-subnet.png' exists and that you have permission to access it.
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/red-hat-ansible-automation-platform-service-on-aws-pull-and-push-models.ditamap:9:12: [DOTJ088E] XML parsing error: The content of element type "mapref" must match "(topicmeta?,(data|sort-as|data-about)*)".
+Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/topics/mesh_egress.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/topics/mesh_egress.png' exists and that you have permission to access it.
+Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/topics/mesh_ingress.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/stories/topics/mesh_ingress.png' exists and that you have permission to access it.
+Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/topics/mesh_egress.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/topics/mesh_egress.png' exists and that you have permission to access it.
+Warning: [DOTX008E] The resource 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/topics/mesh_ingress.png' cannot be loaded. Make sure 'file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/aap-clouds/topics/mesh_ingress.png' exists and that you have permission to access it.
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/red-hat-ansible-automation-platform-service-on-aws-subscription-lifecycle.ditamap:11:12: [DOTJ088E] XML parsing error: The content of element type "mapref" must match "(topicmeta?,(data|sort-as|data-about)*)".
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/set-up-red-hat-ansible-automation-platform-service-on-aws.ditamap:9:12: [DOTJ088E] XML parsing error: The content of element type "mapref" must match "(topicmeta?,(data|sort-as|data-about)*)".
+Error: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/support.ditamap:8:12: [DOTJ088E] XML parsing error: The content of element type "mapref" must match "(topicmeta?,(data|sort-as|data-about)*)".
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/red-hat-ansible-automation-platform-service-on-aws-subscription-lifecycle.ditamap:5:129: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/execution-plane.ditamap:5:122: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/multiregion-activepassive-infrastructure.ditamap:5:126: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/set-up-red-hat-ansible-automation-platform-service-on-aws.ditamap:5:113: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/red-hat-ansible-automation-platform-service-on-aws-private-link-connectivity.ditamap:5:119: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/red-hat-ansible-automation-platform-service-on-aws-pull-and-push-models.ditamap:5:116: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/control-plane.ditamap:5:120: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/execution-plane.ditamap:5:122: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/support.ditamap:5:114: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/red-hat-ansible-automation-platform-service-on-aws-private-link-connectivity.ditamap:5:119: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/multiregion-activepassive-infrastructure.ditamap:5:126: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/account-management.ditamap:5:125: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/support.ditamap:5:114: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/red-hat-ansible-automation-platform-service-on-aws-subscription-lifecycle.ditamap:5:129: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/red-hat-ansible-automation-platform-best-practices.ditamap:5:125: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/set-up-red-hat-ansible-automation-platform-service-on-aws.ditamap:5:113: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/account-management.ditamap:5:125: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/red-hat-ansible-automation-platform-service-on-aws-pull-and-push-models.ditamap:5:116: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/control-plane.ditamap:5:120: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/execution-plane.ditamap:5:122: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/set-up-red-hat-ansible-automation-platform-service-on-aws.ditamap:5:113: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/account-management.ditamap:5:125: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/support.ditamap:5:114: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/red-hat-ansible-automation-platform-service-on-aws-subscription-lifecycle.ditamap:5:129: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/red-hat-ansible-automation-platform-best-practices.ditamap:5:125: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/red-hat-ansible-automation-platform-service-on-aws-private-link-connectivity.ditamap:5:119: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/multiregion-activepassive-infrastructure.ditamap:5:126: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/red-hat-ansible-automation-platform-best-practices.ditamap:5:125: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/red-hat-ansible-automation-platform-service-on-aws-pull-and-push-models.ditamap:5:116: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Warning: file:/private/tmp/aap-aws-map-verification-20261106-v2/baseline/control-plane.ditamap:5:120: [DOTX068W]: A <topicref> element that references a map contains child <topicref> elements. Ignoring child topic references.
+Error: Build failed with an exception: The following error occurred while executing this line:
+/opt/homebrew/Cellar/dita-ot/4.4.1/libexec/plugins/org.dita.base/build_preprocess.xml:279: java.lang.NullPointerException: Cannot invoke "java.net.URI.resolve(java.net.URI)" because "src" is null
+
+
+=== aws-source-first-links-conversion.log ===
+12:21:41 WARN Possible invalid reference: ref-saas-network-dns-routing.dita#ref-saas-network-dns-routing output=./proc-saas-standard-ingress-configuration.dita input=./proc-saas-standard-ingress-configuration.adoc
+12:21:41 INFO Created a DITA task output=./proc-saas-standard-ingress-configuration.dita input=./proc-saas-standard-ingress-configuration.adoc
+12:21:41 WARN Possible invalid reference: proc-saas-standard-ingress-configuration.dita#proc-saas-standard-ingress-configuration output=./ref-saas-network-dns-routing.dita input=./ref-saas-network-dns-routing.adoc
+12:21:41 WARN Possible invalid reference: proc-saas-standard-ingress-configuration.dita#proc-saas-standard-ingress-configuration output=./ref-saas-network-dns-routing.dita input=./ref-saas-network-dns-routing.adoc
+12:21:41 INFO Created a DITA reference output=./ref-saas-network-dns-routing.dita input=./ref-saas-network-dns-routing.adoc
+12:21:42 WARN Possible invalid reference: ref-saas-infrastructure-metering.dita#ref-saas-infrastructure-metering output=./ref-saas-exe-plane-strategy.dita input=./ref-saas-exe-plane-strategy.adoc
+12:21:42 WARN Possible invalid reference: ref-saas-infrastructure-metering.dita#ref-saas-infrastructure-metering output=./ref-saas-exe-plane-strategy.dita input=./ref-saas-exe-plane-strategy.adoc
+12:21:42 INFO Created a DITA reference output=./ref-saas-exe-plane-strategy.dita input=./ref-saas-exe-plane-strategy.adoc
+12:21:42 INFO Created a DITA reference output=./ref-saas-infrastructure-metering.dita input=./ref-saas-infrastructure-metering.adoc
+12:21:42 FATAL Unsupported content type type=undef input=./attributes.adoc
+
+
+=== aws-source-first-maps-conversion.log ===
+=== map-aap-service-aws-administer.log ===
+12:21:44 INFO Created a DITA map output=aap-service-aws-administer.ditamap input=aap-service-aws-administer.adoc
+
+=== map-aap-service-aws-configure.log ===
+12:21:45 INFO Created a DITA map output=aap-service-aws-configure.ditamap input=aap-service-aws-configure.adoc
+
+=== map-aap-service-aws-get-started.log ===
+12:21:43 INFO Created a DITA map output=aap-service-aws-get-started.ditamap input=aap-service-aws-get-started.adoc
+
+=== map-aap-service-aws-optimize.log ===
+12:21:43 INFO Created a DITA map output=aap-service-aws-optimize.ditamap input=aap-service-aws-optimize.adoc
+
+=== map-aap-service-aws-plan.log ===
+12:21:45 INFO Created a DITA map output=aap-service-aws-plan.ditamap input=aap-service-aws-plan.adoc

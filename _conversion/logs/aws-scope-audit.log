@@ -1,0 +1,29 @@
+AAP Service on AWS CSV-to-map scope audit
+Source commit: dce13e14d2
+CSV: /tmp/aap-clouds-jtbd-export-20261105-refresh4.csv/AAP-Clouds-JTBD-Structure/AWS csv2map export.csv
+Map: aap-service-aws-navigation.adoc
+CSV scope files: 99
+Files returned by list-content: 116
+CSV scope files missing from map: 0
+
+Missing from generated map:
+(none)
+
+Included files outside direct CSV scope (review as dependencies):
+aap-clouds/topics/con-saas-dns-resolution-requirements.adoc
+aap-service-aws-administer.adoc
+aap-service-aws-configure.adoc
+aap-service-aws-discover.adoc
+aap-service-aws-get-started.adoc
+aap-service-aws-optimize.adoc
+aap-service-aws-plan.adoc
+account-management.adoc
+control-plane.adoc
+execution-plane.adoc
+multiregion-activepassive-infrastructure.adoc
+red-hat-ansible-automation-platform-best-practices.adoc
+red-hat-ansible-automation-platform-service-on-aws-private-link-connectivity.adoc
+red-hat-ansible-automation-platform-service-on-aws-pull-and-push-models.adoc
+red-hat-ansible-automation-platform-service-on-aws-subscription-lifecycle.adoc
+set-up-red-hat-ansible-automation-platform-service-on-aws.adoc
+support.adoc

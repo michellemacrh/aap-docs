@@ -1,0 +1,33 @@
+AAP Service on AWS included-file conditional scan
+Source commit: dce13e14d2
+Map: aap-service-aws-navigation.adoc
+Included AsciiDoc files scanned: 116
+Conditional directives found: 27
+
+aap-clouds/stories/assembly-saas-aap-best-practices.adoc:3:ifdef::context[:parent-context: {context}]
+aap-clouds/stories/assembly-saas-aap-best-practices.adoc:17:ifdef::parent-context[:context: {parent-context}]
+aap-clouds/stories/assembly-saas-account-management.adoc:3:ifdef::context[:parent-context: {context}]
+aap-clouds/stories/assembly-saas-account-management.adoc:24:ifdef::parent-context[:context: {parent-context}]
+aap-clouds/stories/assembly-saas-business-continuity.adoc:3:ifdef::context[:parent-context: {context}]
+aap-clouds/stories/assembly-saas-control-plane.adoc:3:ifdef::context[:parent-context: {context}]
+aap-clouds/stories/assembly-saas-control-plane.adoc:69:ifdef::parent-context[:context: {parent-context}]
+aap-clouds/stories/assembly-saas-execution-plane.adoc:3:ifdef::context[:parent-context: {context}]
+aap-clouds/stories/assembly-saas-execution-plane.adoc:34:ifdef::parent-context[:context: {parent-context}]
+aap-clouds/stories/assembly-saas-intro.adoc:3:ifdef::context[:parent-context: {context}]
+aap-clouds/stories/assembly-saas-intro.adoc:14:ifdef::parent-context[:context: {parent-context}]
+aap-clouds/stories/assembly-saas-post-deloyment-configuration.adoc:3:ifdef::context[:parent-context: {context}]
+aap-clouds/stories/assembly-saas-post-deloyment-configuration.adoc:28:ifdef::parent-context[:context: {parent-context}]
+aap-clouds/stories/assembly-saas-post-install-config.adoc:3:ifdef::context[:parent-context: {context}]
+aap-clouds/stories/assembly-saas-post-install-config.adoc:22:ifdef::parent-context[:context: {parent-context}]
+aap-clouds/stories/assembly-saas-private-link.adoc:3:ifdef::context[:parent-context: {context}]
+aap-clouds/stories/assembly-saas-private-link.adoc:35:ifdef::parent-context[:context: {parent-context}]
+aap-clouds/stories/assembly-saas-pull-push.adoc:3:ifdef::context[:parent-context: {context}]
+aap-clouds/stories/assembly-saas-pull-push.adoc:19:ifdef::parent-context[:context: {parent-context}]
+aap-clouds/stories/assembly-saas-service-definition.adoc:3:ifdef::context[:parent-context: {context}]
+aap-clouds/stories/assembly-saas-service-definition.adoc:14:ifdef::parent-context[:context: {parent-context}]
+aap-clouds/stories/assembly-saas-set-up.adoc:3:ifdef::context[:parent-context: {context}]
+aap-clouds/stories/assembly-saas-set-up.adoc:20:ifdef::parent-context[:context: {parent-context}]
+aap-clouds/stories/assembly-saas-subscription-lifecycle.adoc:3:ifdef::context[:parent-context: {context}]
+aap-clouds/stories/assembly-saas-subscription-lifecycle.adoc:23:ifdef::parent-context[:context: {parent-context}]
+aap-clouds/stories/assembly-saas-support.adoc:3:ifdef::context[:parent-context: {context}]
+aap-clouds/stories/assembly-saas-support.adoc:20:ifdef::parent-context[:context: {parent-context}]
